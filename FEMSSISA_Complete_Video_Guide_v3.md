@@ -236,9 +236,11 @@
 ### Step 19: Three-Variable Equations
 | # | Score | Video | How to find it |
 |---|-------|-------|----------------|
-| 1 | **8/10** | **Khan Academy — Systems of 3 Equations** | 🔍 YouTube: `Khan Academy solving system of 3 equations substitution` |
-| 2 | **7/10** | **Eddie Woo — Simultaneous Equations** | 🔍 YouTube: `Eddie Woo simultaneous equations introduction` |
-| 3 | **7/10** | **Organic Chemistry Tutor — 3 Variable Systems** | 🔍 YouTube: `Organic Chemistry Tutor solving system of equations 3 variables` |
+| 1 | **8/10** | **Khan Academy — Systems of 3 Equations** | [youtube.com/watch?v=pANZpI9sOYg](https://www.youtube.com/watch?v=pANZpI9sOYg&pp=ygU3S2hhbiBBY2FkZW15IHNvbHZpbmcgc3lzdGVtIG9mIDMgZXF1YXRpb25zIHN1YnN0aXR1dGlvbtIHCQnFCgGHKiGM7w%3D%3D) ✅ verified |
+| 2 | **7/10** | **3 Variables 3 Equations Solving Using Substitution Method** | [youtube.com/watch?v=WJpBGbG9fE8](https://www.youtube.com/watch?v=WJpBGbG9fE8) ✅ verified |
+| 3 | **7/10** | **Organic Chemistry Tutor — 3 Variable Systems** | [youtube.com/watch?v=cblHUeq3bkE](https://www.youtube.com/watch?v=cblHUeq3bkE&pp=ugUEEgJlbtIHCQnFCgGHKiGM7w%3D%3D) ✅ verified |
+| 4 | **7/10** | **Solving simultaneous equations by substitution** | [youtube.com/watch?v=r59oLimduIM](https://www.youtube.com/watch?v=r59oLimduIM) ✅ verified |
+| 5 | **7/10** | **Algebra: Substitution in Maths** | [youtube.com/watch?v=K16dLKw2oMo](https://www.youtube.com/watch?v=K16dLKw2oMo) ✅ verified |
 
 ### Step 20: Digit Patterns & Last-Digit Problems
 | # | Score | Video | How to find it |
