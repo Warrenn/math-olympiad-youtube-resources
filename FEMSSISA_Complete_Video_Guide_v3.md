@@ -259,8 +259,11 @@
 ### Bonus A: Handshakes
 | # | Score | Video | How to find it |
 |---|-------|-------|----------------|
-| 1 | **8/10** | **Eddie Woo — Handshake Problem** | 🔍 YouTube: `Eddie Woo handshake problem` |
+| 1 | **8/10** | **can you solve the handshake puzzle** | [youtube.com/watch?v=YQsw6TL4IzA](https://www.youtube.com/watch?v=YQsw6TL4IzA) ✅ verified |
 | 2 | **7/10** | **NRICH — Handshakes & Mystic Rose** | [nrich.maths.org/6708](https://nrich.maths.org/6708) ✅ stable URL |
+| 3 | **7/10** | **hand shake problem** | [youtube.com/watch?v=X4ENKmHmSGQ](https://www.youtube.com/watch?v=X4ENKmHmSGQ) ✅ verified |
+| 4 | **7/10** | **Number of Handshakes at a Party** | [youtube.com/watch?v=dIejOnMP20c](https://www.youtube.com/watch?v=dIejOnMP20c) ✅ verified |
+| 5 | **7/10** | **The Handshake Problem** | [youtube.com/watch?v=yj1CpvYtFHg](https://www.youtube.com/watch?v=yj1CpvYtFHg) ✅ verified |
 
 ### Bonus B: Two-Tap Filling
 | # | Score | Video | How to find it |
