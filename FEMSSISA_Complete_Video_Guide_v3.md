@@ -219,8 +219,9 @@
 | 1 | **7/10** | **Math Antics — Exponents & Square Roots** | [youtube.com/watch?v=B4zejSI8zho](https://www.youtube.com/watch?v=B4zejSI8zho&pp=ygUiTWF0aCBBbnRpY3MgRXhwb25lbnRzIFNxdWFyZSBSb290c9IHCQnFCgGHKiGM7w%3D%3D) or [youtube.com/watch?v=2mejAHKMBiM](https://www.youtube.com/watch?v=2mejAHKMBiM&pp=ygUiTWF0aCBBbnRpY3MgRXhwb25lbnRzIFNxdWFyZSBSb290cw%3D%3D) ✅ verified |
 | 2 | **8/10** | **Math is Fun — Sum of Cubes** | [mathsisfun.com — Sums of Squares & Cubes](https://www.mathsisfun.com/algebra/series-sums-squares-cubes.html) ✅ stable URL |
 | 3 | **8/10** | **visual proof: sum of cubes = square of sum** | [youtube.com/shorts/E5HaJgo3pwk](https://www.youtube.com/shorts/E5HaJgo3pwk) ✅ verified |
-| 4 | **7/10** | **Art of Problem Solving — Telescoping Series** | 🔍 YouTube: `Art of Problem Solving telescoping series` |
+| 4 | **7/10** | **Art of Problem Solving — Telescoping Series** | [youtube.com/watch?v=yb2xPzx9HOg](https://www.youtube.com/watch?v=yb2xPzx9HOg&pp=ygUpQXJ0IG9mIFByb2JsZW0gU29sdmluZyB0ZWxlc2NvcGluZyBzZXJpZXM%3D) ✅ verified |
 | 5 | **7/10** | **Sum of Cubes DailyMathVisuals** | [youtube.com/watch?v=AtjRnPHEdM0](https://www.youtube.com/watch?v=AtjRnPHEdM0) ✅ verified |
+| 6 | **7/10** | **how to understand the sum of cubes formula** | [tiktok.com/@testandtutor/video/7521028368431729976](https://www.tiktok.com/@testandtutor/video/7521028368431729976) ✅ verified |
 
 ### Step 18: Worst-Case Probability (Blindfolded Discs)
 | # | Score | Video | How to find it |
