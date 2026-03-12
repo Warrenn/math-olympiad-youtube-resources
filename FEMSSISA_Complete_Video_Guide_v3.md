@@ -194,9 +194,12 @@
 ### Step 15: Watch Loses/Gains Time
 | # | Score | Video | How to find it |
 |---|-------|-------|----------------|
-| 1 | **8/10** | **Math Antics — Proportions** | [mathantics.com/lesson/proportions](https://mathantics.com/lesson/proportions) (same as Step 7 #2 — the watch problem is a proportion) |
+| 1 | **8/10** | **Math Antics - Ratios And Rates** | [youtube.com/watch?v=RQ2nYUBVvqI](https://www.youtube.com/watch?v=RQ2nYUBVvqI&pp=ygURbWF0aCBhbnRpY3MgcmF0aW_SBwkJxQoBhyohjO8%3D) ✅ verified |
 | 2 | **7/10** | **Khan Academy — Solving Proportions** | [youtube.com/watch?v=GO5ajwbFqVQ](https://www.youtube.com/watch?v=GO5ajwbFqVQ&pp=ygUga2hhbiBhY2FkZW15IHNvbHZpbmcgcHJvcG9ydGlvbnM%3D) ✅ verified |
 | 3 | **7/10** | **Solving proportions 2 exercise examples \| Algebra Basics \| Khan Academy** | [youtube.com/watch?v=qzsR7cChujg](https://www.youtube.com/watch?v=qzsR7cChujg) ✅ verified |
+| 4 | **7/10** | **Proportion and Time - Corbettmaths** | [youtube.com/watch?v=01l1a21qDaM](https://www.youtube.com/watch?v=01l1a21qDaM&pp=ygUucmVhbCB0aW1lIHdhdGNoIHRpbWUgcHJvcG9ydGlvbiBtYXRocyBxdWVzdGlvbg%3D%3D) ✅ verified |
+| 5 | **7/10** | **Direct and Indirect Proportion** | [youtube.com/watch?v=K7h4l4OGr8I](https://www.youtube.com/watch?v=K7h4l4OGr8I) ✅ verified |
+| 6 | **7/10** | **Proportion Short** | [youtube.com/shorts/ojfYDKMImkY](https://www.youtube.com/shorts/ojfYDKMImkY) ✅ verified |
 
 ### Step 16: Plant Geometric Growth
 | # | Score | Video | How to find it |
