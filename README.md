@@ -36,6 +36,7 @@ This repository contains the complete 6-month training programme, past competiti
 
 | File | Description |
 |---|---|
+| [FEMSSISA_Complete_Video_Guide_v3.md](FEMSSISA_Complete_Video_Guide_v3.md) | Complete video guide for all 20 steps + bonus topics — scored, ranked, with stable website URLs and verified YouTube links |
 | [verified_youtube_links.md](verified_youtube_links.md) | 72 curated YouTube videos organized by training programme phase and step — clickable links |
 | [verified_youtube_links.csv](verified_youtube_links.csv) | Same data in CSV format for programmatic use |
 
