@@ -29,7 +29,7 @@
 | 1 | **9/10** | **Don't Memorise — Sum of n Natural Numbers** | [youtube.com/watch?v=aaFrAFZATKU](https://www.youtube.com/watch?v=aaFrAFZATKU) ✅ verified |
 | 2 | **8/10** | **PBS LearningMedia — Gauss Arithmetic Sequence Strategy** | [pbslearningmedia.org](https://www.pbslearningmedia.org/resource/mgbh-math-oa-gauss/gauss-arithmetic-sequence-strategy/) ✅ stable URL |
 | 3 | **8/10** | **Khan Academy — Sum of First n Integers** | [youtube.com/watch?v=KvvFTPsZxU4](https://www.youtube.com/watch?v=KvvFTPsZxU4) ✅ verified |
-| 4 | **7/10** | **Numberphile — Gauss Trick** | 🔍 YouTube: `Numberphile Gauss trick 1 to 100 sum` |
+| 4 | **7/10** | **Numberphile — Gauss Trick** | [youtube.com/watch?v=Dd81F6-Ar_0](https://www.youtube.com/watch?v=Dd81F6-Ar_0) ✅ verified |
 | 5 | **7/10** | **Math Antics — Arithmetic Sequences** | [mathantics.com](https://mathantics.com/) → search "sequences" or 🔍 YouTube: `Math Antics arithmetic sequences` |
 | 6 | **7/10** | **Matematickcom — The Genius Trick Gauss Used to Add Numbers 1-100 in Seconds!** | [youtube.com/watch?v=hG6vjFYQRFU](https://www.youtube.com/watch?v=hG6vjFYQRFU) ✅ verified |
 | 7 | **7/10** | **Minute Math — Add the Numbers from 1 to 100 like a 5-Year-Old! The Story of Gauss** | [youtube.com/watch?v=jUz0jJm73aQ](https://www.youtube.com/watch?v=jUz0jJm73aQ) ✅ verified |
