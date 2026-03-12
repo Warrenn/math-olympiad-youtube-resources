@@ -245,9 +245,12 @@
 ### Step 20: Digit Patterns & Last-Digit Problems
 | # | Score | Video | How to find it |
 |---|-------|-------|----------------|
-| 1 | **8/10** | **Math Antics — Exponents & Square Roots** | [mathantics.com/lesson/exponents-and-square-roots](https://mathantics.com/lesson/exponents-and-square-roots) |
-| 2 | **7/10** | **Eddie Woo — Last Digit Patterns in Powers** | 🔍 YouTube: `Eddie Woo last digit patterns powers cycles` |
-| 3 | **7/10** | **Art of Problem Solving — Modular Arithmetic** | 🔍 YouTube: `Art of Problem Solving modular arithmetic introduction` |
+| 1 | **8/10** | **The Distributive Property In Arithmetic** | [youtube.com/watch?v=VZ0jG3W53nE](https://www.youtube.com/watch?v=VZ0jG3W53nE&t=2s) ✅ verified |
+| 2 | **7/10** | **The Distributive Property \| Math with Mr. J** | [youtube.com/watch?v=TJ2LngtJgXs](https://www.youtube.com/watch?v=TJ2LngtJgXs) ✅ verified |
+| 3 | **7/10** | **The Distributive Property in algebra** | [youtube.com/watch?v=v-6MShC82ow](https://www.youtube.com/watch?v=v-6MShC82ow&t=3s&pp=ygUcRGlzdHJpYnV0aXZlIFByb3BlcnR5IHRyaWNrcw%3D%3D) ✅ verified |
+| 4 | **7/10** | **Distributive property \| Making maths easy** | [youtube.com/shorts/OtvctAAD8ds](https://www.youtube.com/shorts/OtvctAAD8ds) ✅ verified |
+| 5 | **7/10** | **Multiplication Using Distributive Law** | [youtube.com/shorts/HKADWjxDuh8](https://www.youtube.com/shorts/HKADWjxDuh8) ✅ verified |
+| 6 | **7/10** | **DISTRIBUTIVE PROPERTY OF MULTIPLICATION** | [youtube.com/watch?v=0ADqhtiOtOQ](https://www.youtube.com/watch?v=0ADqhtiOtOQ) ✅ verified |
 
 ---
 
