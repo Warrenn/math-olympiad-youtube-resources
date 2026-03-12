@@ -31,10 +31,9 @@
 | 3 | **9/10** | **Don't Memorise — Sum of n Natural Numbers** | [youtube.com/watch?v=aaFrAFZATKU](https://www.youtube.com/watch?v=aaFrAFZATKU) ✅ verified |
 | 4 | **8/10** | **PBS LearningMedia — Gauss Arithmetic Sequence Strategy** | [pbslearningmedia.org](https://www.pbslearningmedia.org/resource/mgbh-math-oa-gauss/gauss-arithmetic-sequence-strategy/) ✅ stable URL |
 | 5 | **7/10** | **Numberphile — Gauss Trick** | [youtube.com/watch?v=Dd81F6-Ar_0](https://www.youtube.com/watch?v=Dd81F6-Ar_0) ✅ verified |
-| 6 | **7/10** | **Math Antics — Arithmetic Sequences** | [youtube.com/watch?v=vV7C7bXm4VI](https://www.youtube.com/watch?v=vV7C7bXm4VI&list=PLveXXz-PwDRQgsKQVDG6r9BQFf8yy-Ejy) ✅ verified |
-| 7 | **7/10** | **Minute Math — Add the Numbers from 1 to 100 like a 5-Year-Old! The Story of Gauss** | [youtube.com/watch?v=jUz0jJm73aQ](https://www.youtube.com/watch?v=jUz0jJm73aQ) ✅ verified |
-| 8 | **7/10** | **Numberphile — Carl Friedrich Gauss: The Story of 1+2+3+...+100** | [youtube.com/watch?v=NOpWx-atufc](https://www.youtube.com/watch?v=NOpWx-atufc) ✅ verified |
-| 9 | **8/10** | **Sum of an Arithmetic Progression** | [youtube.com/watch?v=ZZaUO_35hdk](https://www.youtube.com/watch?v=ZZaUO_35hdk) ✅ verified |
+| 6 | **7/10** | **Minute Math — Add the Numbers from 1 to 100 like a 5-Year-Old! The Story of Gauss** | [youtube.com/watch?v=jUz0jJm73aQ](https://www.youtube.com/watch?v=jUz0jJm73aQ) ✅ verified |
+| 7 | **7/10** | **Numberphile — Carl Friedrich Gauss: The Story of 1+2+3+...+100** | [youtube.com/watch?v=NOpWx-atufc](https://www.youtube.com/watch?v=NOpWx-atufc) ✅ verified |
+| 8 | **8/10** | **Sum of an Arithmetic Progression** | [youtube.com/watch?v=ZZaUO_35hdk](https://www.youtube.com/watch?v=ZZaUO_35hdk) ✅ verified |
 
 ---
 
@@ -204,9 +203,12 @@
 ### Step 16: Plant Geometric Growth
 | # | Score | Video | How to find it |
 |---|-------|-------|----------------|
-| 1 | **8/10** | **Khan Academy — Intro to Geometric Sequences** | 🔍 YouTube: `Khan Academy intro to geometric sequences` |
-| 2 | **8/10** | **Eddie Woo — Geometric Sequences** | 🔍 YouTube: `Eddie Woo geometric sequences introduction` |
-| 3 | **7/10** | **Math Antics — Exponents & Square Roots** | [mathantics.com/lesson/exponents-and-square-roots](https://mathantics.com/lesson/exponents-and-square-roots) or 🔍 YouTube: `Math Antics Exponents Square Roots` |
+| 1 | **7/10** | **Math Antics — Arithmetic Sequences** | [youtube.com/watch?v=vV7C7bXm4VI](https://www.youtube.com/watch?v=vV7C7bXm4VI&list=PLveXXz-PwDRQgsKQVDG6r9BQFf8yy-Ejy) ✅ verified |
+| 2 | **8/10** | **Khan Academy — Intro to Geometric Sequences** | [youtube.com/watch?v=pXo0bG4iAyg](https://www.youtube.com/watch?v=pXo0bG4iAyg&list=PLloRLq8XCqrN0S4D90Gh1mGg9TlX3K0pV) ✅ verified |
+| 3 | **8/10** | **Eddie Woo — Geometric Sequences** | [youtube.com/watch?v=FmJcBEN9L0U](https://www.youtube.com/watch?v=FmJcBEN9L0U&t=288s&pp=ygUqRWRkaWUgV29vIGdlb21ldHJpYyBzZXF1ZW5jZXMgaW50cm9kdWN0aW9u) ✅ verified |
+| 4 | **7/10** | **Math Antics — Exponents & Square Roots** | [youtube.com/watch?v=B4zejSI8zho](https://www.youtube.com/watch?v=B4zejSI8zho&pp=ygUiTWF0aCBBbnRpY3MgRXhwb25lbnRzIFNxdWFyZSBSb290c9IHCQnFCgGHKiGM7w%3D%3D) or [youtube.com/watch?v=2mejAHKMBiM](https://www.youtube.com/watch?v=2mejAHKMBiM&pp=ygUiTWF0aCBBbnRpY3MgRXhwb25lbnRzIFNxdWFyZSBSb290cw%3D%3D) ✅ verified |
+| 5 | **7/10** | **Common Ratio** | [youtube.com/watch?v=z7qKp5lBPUM](https://www.youtube.com/watch?v=z7qKp5lBPUM&pp=ygUkY29tbW9uIHJhdGlvIG9mIGEgZ2VvbWV0cmljIHNlcXVlbmNl) or [youtube.com/watch?v=XQzVY7Y_EaQ](https://www.youtube.com/watch?v=XQzVY7Y_EaQ&pp=ygUkY29tbW9uIHJhdGlvIG9mIGEgZ2VvbWV0cmljIHNlcXVlbmNl) ✅ verified |
+| 6 | **7/10** | **Common Ratio of a Geometric Sequence** | [youtube.com/shorts/CoAgNxuq6dA](https://www.youtube.com/shorts/CoAgNxuq6dA) ✅ verified |
 
 ---
 
