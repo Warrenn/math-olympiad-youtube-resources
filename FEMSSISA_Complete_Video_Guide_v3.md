@@ -277,8 +277,11 @@
 ### Bonus C: Painted Cube Faces
 | # | Score | Video | How to find it |
 |---|-------|-------|----------------|
-| 1 | **8/10** | **Eddie Woo — Painted Cube Problem** | 🔍 YouTube: `Eddie Woo painted cube problem faces` |
-| 2 | **7/10** | **Numberphile — Painted Cube** | 🔍 YouTube: `Numberphile painted cube` |
+| 1 | **8/10** | **Solving the Painted Cube Problem** | [youtube.com/watch?v=o55JGHUXxLM](https://www.youtube.com/watch?v=o55JGHUXxLM) ✅ verified |
+| 2 | **7/10** | **painted cubes rule** | [youtube.com/watch?v=-psr_aohVH0](https://www.youtube.com/watch?v=-psr_aohVH0) ✅ verified |
+| 3 | **7/10** | **Painted Cube Problem** | [youtube.com/watch?v=-psr_aohVH0](https://www.youtube.com/watch?v=-psr_aohVH0) ✅ verified |
+| 4 | **7/10** | **Face Painting Problem** | [youtube.com/watch?v=m9JGtm6kCEQ](https://www.youtube.com/watch?v=m9JGtm6kCEQ) ✅ verified |
+| 5 | **7/10** | **How Many Faces are NOT Painted?** | [youtube.com/watch?v=pEmSLu_eJO8](https://www.youtube.com/watch?v=pEmSLu_eJO8) ✅ verified |
 
 ### Bonus D: Fibonacci-Style Sequences
 | # | Score | Video | How to find it |
