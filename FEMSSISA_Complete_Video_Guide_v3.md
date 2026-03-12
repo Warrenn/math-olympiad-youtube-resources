@@ -92,7 +92,7 @@
 | 2 | **9/10** | **Math Antics — Divisibility Rules** | [mathantics.com/lesson/divisibility-rules](https://mathantics.com/lesson/divisibility-rules) or [youtube.com/watch?v=KGMf314LUc0](https://www.youtube.com/watch?v=KGMf314LUc0&pp=ygUeTWF0aCBBbnRpY3MgRGl2aXNpYmlsaXR5IFJ1bGVz) ✅ verified |
 | 3 | **8/10** | **Khan Academy — Divisibility Tests** | [khanacademy.org — Divisibility](https://www.khanacademy.org/math/pre-algebra/pre-algebra-factors-multiples/pre-algebra-divisibility-tests/v/divisibility-tests-for-2-3-4-5-6-9-10) or 🔍 YouTube: `Khan Academy divisibility tests 2 3 4 5 6 9 10` |
 | 4 | **7/10** | **Math with Mr. J — Divisibility Rules** | [youtube.com/watch?v=xeMjYFUJC5k](https://www.youtube.com/watch?v=xeMjYFUJC5k&list=PLiT3pCvK_cfUMWKMyPFaEf5CBk5nEVHyq) ✅ verified |
-| 5 | **7/10** | **Divisibility Rules for 2, 3, 4, 5, 6, 7, 8, 9, & 10 | Division Made Easy** | [youtube.com/watch?v=uiSDZ3zB_d4](https://www.youtube.com/watch?v=uiSDZ3zB_d4) ✅ verified |
+| 5 | **7/10** | **Divisibility Rules for 2, 3, 4, 5, 6, 7, 8, 9, & 10 \| Division Made Easy** | [youtube.com/watch?v=uiSDZ3zB_d4](https://www.youtube.com/watch?v=uiSDZ3zB_d4) ✅ verified |
 
 ### Step 6: Cryptarithmetic (Letters = Digits)
 
@@ -103,7 +103,7 @@
 | 3 | **7/10** | **Art of Problem Solving — Cryptarithmetic** | [youtube.com/watch?v=UGEt56AHTGM](https://www.youtube.com/watch?v=UGEt56AHTGM&pp=ygU-QXJ0IG9mIFByb2JsZW0gU29sdmluZyBjcnlwdGFyaXRobWV0aWMgYWxwaGFtZXRpYyBpbnRyb2R1Y3Rpb24%3D) ✅ verified |
 | 4 | **6/10** | **FutureLearn — Cryptarithms** | [futurelearn.com — Cryptarithms](https://www.futurelearn.com/info/courses/recreational-math/0/steps/43523) ✅ stable URL |
 | 5 | **6/10** | **Basic-Mathematics.com — Cryptarithms** | [basic-mathematics.com/cryptarithms](https://www.basic-mathematics.com/cryptarithms.html) ✅ stable URL |
-| 6 | **7/10** | **SEND+MORE=MONEY Solution | Crypt arithmetic Problem | Brain Teasers | Math Puzzle | Zero Math** | [youtube.com/watch?v=Pnxu0vsKBT0](https://www.youtube.com/watch?v=Pnxu0vsKBT0) ✅ verified |
+| 6 | **7/10** | **SEND+MORE=MONEY Solution \| Crypt arithmetic Problem \| Brain Teasers \| Math Puzzle \| Zero Math** | [youtube.com/watch?v=Pnxu0vsKBT0](https://www.youtube.com/watch?v=Pnxu0vsKBT0) ✅ verified |
 
 ### Step 7: Proportion, Rate & Profit
 
@@ -180,7 +180,7 @@
 | 2 | **7/10** | **Math Antics — Integers on a Number Line** | [youtube.com/watch?v=RSJOTBJlKNA](https://www.youtube.com/watch?v=RSJOTBJlKNA) ✅ verified |
 | 3 | **7/10** | **Math Antics - Negative Numbers** | [youtube.com/watch?v=OAoLCXpao6s](https://www.youtube.com/watch?v=OAoLCXpao6s&pp=ygUyTWF0aCBBbnRpY3MgaW50ZWdlcnMgbnVtYmVyIGxpbmUgcG9zaXRpdmUgbmVnYXRpdmU%3D) or [youtube.com/watch?v=_BgblvF90UE](https://www.youtube.com/watch?v=_BgblvF90UE&list=PLpLZJYVBaj-KsCPfowYTs0d5wfQ5IjZNH) ✅ verified |
 | 4 | **7/10** | **Math Antics - Number Patterns** | [youtube.com/watch?v=vV7C7bXm4VI](https://www.youtube.com/watch?v=vV7C7bXm4VI) ✅ verified |
-| 5 | **7/10** | **Patterns and Sequences | Grade 6 Lesson 5 | Math Boost Camp** | [youtube.com/watch?v=BNz3Kjsv6K4](https://www.youtube.com/watch?v=BNz3Kjsv6K4) ✅ verified |
+| 5 | **7/10** | **Patterns and Sequences \| Grade 6 Lesson 5 \| Math Boost Camp** | [youtube.com/watch?v=BNz3Kjsv6K4](https://www.youtube.com/watch?v=BNz3Kjsv6K4) ✅ verified |
 
 ### Step 14: Strike-Off Sequences
 | # | Score | Video | How to find it |
@@ -188,15 +188,15 @@
 | 1 | **8/10** | **Khan Academy — Sieve of Eratosthenes** | [youtube.com/watch?v=klcIklsWzrY](https://www.youtube.com/watch?v=klcIklsWzrY&pp=ygUiS2hhbiBBY2FkZW15IFNpZXZlIG9mIEVyYXRvc3RoZW5lcw%3D%3D) ✅ verified |
 | 2 | **8/10** | **NRICH — Sieve of Eratosthenes (Interactive)** | [nrich.maths.org — Sieve](https://nrich.maths.org/7520) ✅ stable URL |
 | 3 | **7/10** | **Math Antics — Factors & Multiples** | [mathantics.com/lesson/factors-and-multiples](https://mathantics.com/lesson/factors-and-multiples) or [youtube.com/watch?v=0NvLtTwnUHs](https://www.youtube.com/watch?v=0NvLtTwnUHs&list=PLeli_nPgrISCafOAE9cs2Nx68RzRypdAu) ✅ verified |
-| 4 | **7/10** | **Multiples vs. Factors | What are Multiples and Factors? | Math with Mr. J** | [youtube.com/watch?v=1qPfLkOEuYY](https://www.youtube.com/watch?v=1qPfLkOEuYY) ✅ verified |
-| 5 | **7/10** | **Least Common Multiples vs. Greatest Common Factors (LCM vs. GCF) | Math with Mr. J** | [youtube.com/watch?v=Y7Xav-XAhXs](https://www.youtube.com/watch?v=Y7Xav-XAhXs) ✅ verified |
+| 4 | **7/10** | **Multiples vs. Factors \| What are Multiples and Factors? \| Math with Mr. J** | [youtube.com/watch?v=1qPfLkOEuYY](https://www.youtube.com/watch?v=1qPfLkOEuYY) ✅ verified |
+| 5 | **7/10** | **Least Common Multiples vs. Greatest Common Factors (LCM vs. GCF) \| Math with Mr. J** | [youtube.com/watch?v=Y7Xav-XAhXs](https://www.youtube.com/watch?v=Y7Xav-XAhXs) ✅ verified |
 
 ### Step 15: Watch Loses/Gains Time
 | # | Score | Video | How to find it |
 |---|-------|-------|----------------|
 | 1 | **8/10** | **Math Antics — Proportions** | [mathantics.com/lesson/proportions](https://mathantics.com/lesson/proportions) (same as Step 7 #2 — the watch problem is a proportion) |
 | 2 | **7/10** | **Khan Academy — Solving Proportions** | [youtube.com/watch?v=GO5ajwbFqVQ](https://www.youtube.com/watch?v=GO5ajwbFqVQ&pp=ygUga2hhbiBhY2FkZW15IHNvbHZpbmcgcHJvcG9ydGlvbnM%3D) ✅ verified |
-| 3 | **7/10** | **Solving proportions 2 exercise examples | Algebra Basics | Khan Academy** | [youtube.com/watch?v=qzsR7cChujg](https://www.youtube.com/watch?v=qzsR7cChujg) ✅ verified |
+| 3 | **7/10** | **Solving proportions 2 exercise examples \| Algebra Basics \| Khan Academy** | [youtube.com/watch?v=qzsR7cChujg](https://www.youtube.com/watch?v=qzsR7cChujg) ✅ verified |
 
 ### Step 16: Plant Geometric Growth
 | # | Score | Video | How to find it |
