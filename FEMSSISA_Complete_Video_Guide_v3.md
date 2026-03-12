@@ -227,8 +227,11 @@
 | # | Score | Video | How to find it |
 |---|-------|-------|----------------|
 | 1 | **8/10** | **Math Antics — Basic Probability** | [mathantics.com/lesson/basic-probability](https://mathantics.com/lesson/basic-probability) or 🔍 YouTube: `Math Antics Basic Probability` |
-| 2 | **7/10** | **Art of Problem Solving — Pigeonhole Principle** | 🔍 YouTube: `Art of Problem Solving pigeonhole principle` |
+| 2 | **7/10** | **Art of Problem Solving — Pigeonhole Principle** | [youtube.com/watch?v=B2A2pGrDG8I](https://www.youtube.com/watch?v=B2A2pGrDG8I) ✅ verified |
 | 3 | **7/10** | **NRICH — Probability Problems** | [nrich.maths.org/probability](https://nrich.maths.org/probability) ✅ stable URL |
+| 4 | **7/10** | **Solve This Puzzle Blindfolded!** | [youtube.com/watch?v=JDmJOUKssx8](https://www.youtube.com/watch?v=JDmJOUKssx8) ✅ verified |
+| 5 | **7/10** | **Monte Hall Problem** | [youtube.com/shorts/v_lE6Vz4PsY](https://www.youtube.com/shorts/v_lE6Vz4PsY) ✅ verified |
+| 6 | **7/10** | **The Monty Hall Problem - Explained** | [youtube.com/watch?v=9vRUxbzJZ9Y](https://www.youtube.com/watch?v=9vRUxbzJZ9Y) ✅ verified |
 
 ### Step 19: Three-Variable Equations
 | # | Score | Video | How to find it |
