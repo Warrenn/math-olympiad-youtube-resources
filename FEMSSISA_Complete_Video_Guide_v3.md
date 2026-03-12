@@ -268,8 +268,11 @@
 ### Bonus B: Two-Tap Filling
 | # | Score | Video | How to find it |
 |---|-------|-------|----------------|
-| 1 | **8/10** | **Khan Academy — Combined Rates / Work Problems** | 🔍 YouTube: `Khan Academy rates work problems two pipes filling` |
-| 2 | **7/10** | **Organic Chemistry Tutor — Work Rate Problems** | 🔍 YouTube: `Organic Chemistry Tutor work rate problems pipes` |
+| 1 | **8/10** | **Khan Academy — Combined Rates / Work Problems** | [youtube.com/watch?v=Xe6YlrCgkIo](https://www.youtube.com/watch?v=Xe6YlrCgkIo&pp=ygUyS2hhbiBBY2FkZW15IHJhdGVzIHdvcmsgcHJvYmxlbXMgdHdvIHBpcGVzIGZpbGxpbmc%3D) ✅ verified |
+| 2 | **7/10** | **Organic Chemistry Tutor — Work Rate Problems** | [youtube.com/watch?v=zUE59CNlFsI](https://www.youtube.com/watch?v=zUE59CNlFsI&pp=ygUyS2hhbiBBY2FkZW15IHJhdGVzIHdvcmsgcHJvYmxlbXMgdHdvIHBpcGVzIGZpbGxpbmc%3D) ✅ verified |
+| 3 | **7/10** | **Rate problems** | [youtube.com/watch?v=fpjXtpg_isc](https://www.youtube.com/watch?v=fpjXtpg_isc&pp=ygUyS2hhbiBBY2FkZW15IHJhdGVzIHdvcmsgcHJvYmxlbXMgdHdvIHBpcGVzIGZpbGxpbmc%3D) ✅ verified |
+| 4 | **7/10** | **Rate Problem — Two Buckets Filling Tank** | [youtube.com/watch?v=YGHVPIFqMCk](https://www.youtube.com/watch?v=YGHVPIFqMCk) ✅ verified |
+| 5 | **7/10** | **How to solve rate and work problems** | [youtube.com/watch?v=Zmn7orQh3Ao](https://www.youtube.com/watch?v=Zmn7orQh3Ao) ✅ verified |
 
 ### Bonus C: Painted Cube Faces
 | # | Score | Video | How to find it |
