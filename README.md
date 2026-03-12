@@ -36,14 +36,6 @@ This repository contains the complete 6-month training programme, past competiti
 
 | File | Description |
 |---|---|
-| [FEMSSISA_Complete_Video_Guide_v3.md](FEMSSISA_Complete_Video_Guide_v3.md) | Complete video guide for all 20 steps + bonus topics — scored, ranked, with stable website URLs and verified YouTube links |
-| [verified_youtube_links.md](verified_youtube_links.md) | 72 curated YouTube videos organized by training programme phase and step — clickable links |
-| [verified_youtube_links.csv](verified_youtube_links.csv) | Same data in CSV format for programmatic use |
+| [FEMSSISA_Complete_Video_Guide_v3.md](FEMSSISA_Complete_Video_Guide_v3.md) | Complete video guide for all 20 steps + bonus topics — scored, ranked, with verified YouTube links |
 
 Videos cover channels including Khan Academy, Math Antics, Eddie Woo, Corbett Maths, Numberphile, Art of Problem Solving, and more. Each video is mapped to the specific step in the training programme where it is most useful.
-
-## Tools
-
-| File | Description |
-|---|---|
-| [verify_youtube.py](verify_youtube.py) | Playwright script used to search YouTube and verify each video link automatically |
