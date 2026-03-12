@@ -18,7 +18,7 @@
 | 2 | **9/10** | **Math Antics — Solving 2-Step Equations** | [mathantics.com](https://mathantics.com/) → Algebra Basics series, or 🔍 YouTube: `Math Antics Solving 2-Step Equations` |
 | 3 | **8/10** | **Khan Academy — Why We Do the Same Thing to Both Sides** | [khanacademy.org — Balancing Equations](https://www.khanacademy.org/math/algebra-basics/alg-basics-linear-equations-and-inequalities) or 🔍 YouTube: `Khan Academy why we do same thing both sides simple equation` |
 | 4 | **7/10** | **Eddie Woo — Solving Simple Equations** | [youtube.com/watch?v=tMkMJoSxbC8](https://www.youtube.com/watch?v=tMkMJoSxbC8) ✅ verified |
-| 5 | **7/10** | **Mashup Math — Solving One-Step Equations** | 🔍 YouTube: `Mashup Math solving one-step equations` |
+| 5 | **7/10** | **Mashup Math — Solving One-Step Equations** | [youtube.com/watch?v=mVOko08qpyM](https://www.youtube.com/watch?v=mVOko08qpyM&list=PLiT3pCvK_cfUNnU4I1ahDkKk6DSSJ-poX) ✅ verified |
 
 ---
 
