@@ -32,6 +32,7 @@
 | 4 | **7/10** | **Numberphile — Gauss Trick** | 🔍 YouTube: `Numberphile Gauss trick 1 to 100 sum` |
 | 5 | **7/10** | **Math Antics — Arithmetic Sequences** | [mathantics.com](https://mathantics.com/) → search "sequences" or 🔍 YouTube: `Math Antics arithmetic sequences` |
 | 6 | **7/10** | **Matematickcom — The Genius Trick Gauss Used to Add Numbers 1-100 in Seconds!** | [youtube.com/watch?v=hG6vjFYQRFU](https://www.youtube.com/watch?v=hG6vjFYQRFU) ✅ verified |
+| 7 | **7/10** | **Minute Math — Add the Numbers from 1 to 100 like a 5-Year-Old! The Story of Gauss** | [youtube.com/watch?v=jUz0jJm73aQ](https://www.youtube.com/watch?v=jUz0jJm73aQ) ✅ verified |
 
 ---
 
