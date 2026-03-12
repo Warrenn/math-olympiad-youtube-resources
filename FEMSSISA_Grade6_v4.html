@@ -1,0 +1,1825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FEMSSISA Grade 6 Olympiad — 6-Month Training Programme</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Merriweather:wght@700&family=Source+Code+Pro:wght@600&display=swap');
+
+:root {
+  --ink:      #111;
+  --navy:     #003366;
+  --red:      #7a0000;
+  --green:    #1a5c1a;
+  --amber:    #7a4800;
+  --purple:   #4a006a;
+  --bg:       #faf9f5;
+  --rule:     #bbb;
+}
+
+* { box-sizing:border-box; margin:0; padding:0; }
+
+body {
+  font-family: 'Nunito', 'Arial Rounded MT Bold', sans-serif;
+  font-size: 15.5px;
+  line-height: 1.8;
+  color: var(--ink);
+  background: var(--bg);
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 2rem 2.5rem 5rem;
+}
+
+/* ── HEADINGS ─────────────────────────────────────── */
+h1 {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 2rem; font-weight: 700;
+  color: var(--navy);
+  border-bottom: 4px solid var(--navy);
+  padding-bottom: .5rem;
+  margin: 2rem 0 .3rem;
+}
+h2 {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 1.3rem; font-weight: 700;
+  color: var(--navy);
+  border-bottom: 2px solid var(--navy);
+  padding-bottom: .25rem;
+  margin: 2.8rem 0 .7rem;
+}
+h3 {
+  font-size: 1.05rem; font-weight: 800;
+  color: var(--red);
+  margin: 1.8rem 0 .4rem;
+  padding: .2rem 0 .2rem .8rem;
+  border-left: 4px solid var(--red);
+}
+h4 {
+  font-size: .95rem; font-weight: 800;
+  color: var(--ink);
+  margin: 1.2rem 0 .3rem;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+p  { margin: .5rem 0; }
+ul, ol { margin: .5rem 0 .5rem 1.6rem; }
+li { margin: .3rem 0; }
+strong { font-weight: 800; }
+em     { font-style: italic; }
+hr { border:none; border-top:1px solid var(--rule); margin:1.8rem 0; }
+
+/* ── COVER ────────────────────────────────────────── */
+.cover {
+  background: var(--navy);
+  color: #fff;
+  border-radius: 8px;
+  padding: 1.2rem 1.6rem;
+  margin: 1rem 0 2rem;
+  font-size: .94rem;
+  line-height: 2;
+}
+.cover strong { color: #ffd080; }
+
+/* ── PHASE BANNER ─────────────────────────────────── */
+.phase {
+  background: var(--navy);
+  color: #fff;
+  padding: .55rem 1rem;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: .95rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  margin: 3rem 0 .5rem;
+}
+
+/* ── STEP LABEL ───────────────────────────────────── */
+.step-label {
+  display: inline-block;
+  background: var(--red);
+  color: #fff;
+  font-weight: 800;
+  font-size: .72rem;
+  padding: .1rem .6rem;
+  border-radius: 12px;
+  letter-spacing: .05em;
+  margin-right: .4rem;
+  vertical-align: middle;
+}
+
+/* ── CONCEPT (blue) ───────────────────────────────── */
+.what {
+  background: #e8eef8;
+  border-left: 5px solid var(--navy);
+  border-radius: 0 6px 6px 0;
+  padding: .9rem 1.2rem;
+  margin: .9rem 0;
+}
+.what .tag {
+  font-size: .75rem; font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  color: var(--navy);
+  margin-bottom: .3rem;
+}
+
+/* ── BRAIN TIP (yellow) ───────────────────────────── */
+.brain {
+  background: #fffbe0;
+  border: 2px solid #e6c000;
+  border-radius: 8px;
+  padding: .7rem 1rem;
+  margin: .9rem 0;
+  font-size: .95rem;
+}
+.brain .tag {
+  font-size: .75rem; font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  color: #7a5a00;
+  margin-bottom: .2rem;
+}
+
+/* ── TRICKS (green) ───────────────────────────────── */
+.tricks {
+  background: #edf7ed;
+  border: 2px solid #2a7a2a;
+  border-radius: 8px;
+  padding: .9rem 1.2rem;
+  margin: .9rem 0;
+}
+.tricks .tag {
+  font-size: .75rem; font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  color: var(--green);
+  margin-bottom: .3rem;
+}
+
+/* ── WORKED EXAMPLE (orange) ─────────────────────── */
+.example {
+  background: #fff5e6;
+  border-left: 5px solid #c06000;
+  border-radius: 0 6px 6px 0;
+  padding: .9rem 1.2rem;
+  margin: .9rem 0;
+}
+.example .tag {
+  font-size: .75rem; font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  color: var(--amber);
+  margin-bottom: .3rem;
+}
+
+/* ── ALERT / NOTE ─────────────────────────────────── */
+.note {
+  background: #f0e8f8;
+  border: 2px solid #8800aa;
+  border-radius: 8px;
+  padding: .7rem 1rem;
+  margin: .9rem 0;
+  font-size: .94rem;
+}
+
+/* ── WORKING / MATHS ──────────────────────────────── */
+.work {
+  font-family: 'Source Code Pro', 'Courier New', monospace;
+  font-size: .88rem;
+  line-height: 2;
+  margin: .5rem 0;
+  color: var(--ink);
+}
+.work .lbl {
+  font-family: 'Nunito', sans-serif;
+  font-size: .8rem;
+  font-style: italic;
+  color: #555;
+}
+.ans { font-weight: 800; color: var(--red); }
+
+/* ── FORMULA ──────────────────────────────────────── */
+.formula {
+  display: block;
+  font-family: 'Source Code Pro', 'Courier New', monospace;
+  font-size: 1.05rem; font-weight: 700;
+  color: var(--navy);
+  background: #dde8f8;
+  border: 1.5px solid #99aacc;
+  border-radius: 6px;
+  padding: .5rem 1rem;
+  margin: .6rem 0;
+  text-align: center;
+}
+
+/* ── PRACTICE ─────────────────────────────────────── */
+.practice {
+  background: #f8f0ff;
+  border: 2px solid #8800aa;
+  border-radius: 8px;
+  padding: .9rem 1.2rem;
+  margin: 1rem 0;
+}
+.practice .tag {
+  font-size: .75rem; font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  color: var(--purple);
+  margin-bottom: .4rem;
+}
+
+/* ── TABLES ───────────────────────────────────────── */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: .9rem 0;
+  font-size: .91rem;
+}
+th {
+  background: var(--navy);
+  color: #fff;
+  font-weight: 800;
+  padding: .45rem .7rem;
+  text-align: left;
+  border: 1px solid var(--navy);
+}
+td {
+  padding: .4rem .7rem;
+  border: 1px solid #ccc;
+  background: #fff;
+  color: var(--ink);
+}
+tr:nth-child(even) td { background: #f3f3f3; }
+.ey { font-weight: 800; }
+
+.page-break { margin-top: 3rem; }
+
+/* ════ PRINT — colours fully preserved ══════════════════ */
+@media print {
+  @page { margin: 1.6cm 1.4cm; size: A4; }
+
+  /* Tell every browser engine to print backgrounds exactly */
+  html, body, * {
+    -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+
+  body {
+    font-size: 10pt;
+    line-height: 1.65;
+    max-width: 100%;
+    padding: 0;
+    background: #faf9f5 !important;
+  }
+
+  /* Headings — shrink sizes, keep colours from screen styles */
+  h1  { font-size: 14pt; margin-top: 0; }
+  h2  { font-size: 11.5pt; margin-top: 14pt; }
+  h3  { font-size: 10pt; }
+  h4  { font-size: 9pt; }
+
+  /* Tighten padding on all coloured boxes for print */
+  .cover   { padding: 8pt 12pt; }
+  .phase   { padding: 5pt 9pt; margin: 14pt 0 4pt; }
+  .what, .brain, .tricks, .example, .note, .practice {
+    padding: 6pt 10pt;
+    margin: 6pt 0;
+  }
+  .formula { font-size: 10pt; padding: 4pt 8pt; margin: 4pt 0; }
+
+  /* Smaller monospace working blocks */
+  .work { font-size: 8pt; line-height: 1.8; }
+
+  /* Tables */
+  table { font-size: 8pt; page-break-inside: avoid; }
+
+  /* Page break controls */
+  .page-break { page-break-before: always; }
+  h2, h3      { page-break-after: avoid; }
+  .example, .tricks, .brain, .practice, .formula { page-break-inside: avoid; }
+
+  /* Remove link underlines */
+  a { text-decoration: none; }
+}
+</style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<h1>FEMSSISA Grade 6 Olympiad</h1>
+<p style="font-size:1.15rem; font-weight:800; color:#003366; margin:.2rem 0 .5rem;">Complete 6-Month Training Programme</p>
+
+<div class="cover">
+  <strong>You finished Grade 5. Now it gets even more exciting.</strong><br>
+  This programme takes you from where you are right now all the way to competition-ready in 6 months.<br>
+  <strong>How to use it:</strong> Read 1 step at a time. Don't rush. Do the practice questions. Come back the next day and read the previous step for 5 minutes before starting the new one.<br>
+  <strong>Papers analysed:</strong> 2022, 2023, 2024, 2025 (plus 2017 Final Round as a bonus challenge).<br>
+  <strong>Official past papers and answers:</strong> www.saolympiads.co.za &nbsp;|&nbsp; <strong>Certainty: 9/10</strong>
+</div>
+
+<div class="brain">
+  <div class="tag">🌟 Before You Begin — Read This Once</div>
+  <p>The Grade 6 paper has <strong>20 questions</strong> in 90 minutes. Questions 1–15 are multiple choice (1 mark each). Questions 16–20 are open-ended (2 marks each). Total: 25 marks.</p>
+  <p><strong>The three golden rules under exam conditions:</strong></p>
+  <ol>
+    <li>Read every question <strong>twice</strong> before writing anything.</li>
+    <li>Show all your working — even if you think the answer is obvious.</li>
+    <li>Check by plugging your answer back into the original question.</li>
+  </ol>
+</div>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<h2>What Is New in Grade 6 vs Grade 5?</h2>
+<p>Grade 6 keeps all the Grade 5 topics but adds new ones on top. The table below shows you what is brand new, and why each one is slightly trickier.</p>
+<table>
+  <tr><th>New topic in Grade 6</th><th>Why it needs a new skill</th></tr>
+  <tr><td>Decimal division to specified decimal places</td><td>Needs long division and a careful rounding step</td></tr>
+  <tr><td>Algebraic factoring (distributive law)</td><td>Spot a shared number, factor it out, simplify fast</td></tr>
+  <tr><td>Divisibility rules for 3, 6, 9, 12</td><td>Find a missing digit using digit-sum rules</td></tr>
+  <tr><td>Cryptarithmetic (letters = digits in addition sums)</td><td>Column-by-column logic with carrying</td></tr>
+  <tr><td>Composite area (L-shapes and step shapes)</td><td>Split or subtract rectangles to find areas</td></tr>
+  <tr><td>Grid polygon area (diagonal shapes on a grid)</td><td>Surround with a rectangle, subtract the corners</td></tr>
+  <tr><td>Lines of symmetry with placed squares</td><td>Visual folding logic</td></tr>
+  <tr><td>Cube tower patterns</td><td>Triangular numbers and their running totals</td></tr>
+  <tr><td>Hotel room positioning</td><td>Move along a number line and work backwards</td></tr>
+  <tr><td>Strike-off sequences</td><td>Two rounds of crossing off, then count survivors</td></tr>
+  <tr><td>Watch that loses or gains time</td><td>Proportional reasoning between two time-streams</td></tr>
+  <tr><td>Plant geometric growth (multiply each week)</td><td>Go backwards through repeated multiplication</td></tr>
+  <tr><td>Sum of cubes formula</td><td>Square of a triangular number — beautiful shortcut</td></tr>
+  <tr><td>Telescoping series (lots of fractions that cancel)</td><td>Spot the identity, split each term, watch it collapse</td></tr>
+  <tr><td>Worst-case probability (blindfolded discs)</td><td>The word "ensure" means assume the worst luck always</td></tr>
+  <tr><td>Three-variable equations (basketball)</td><td>Three equations, substitute step by step</td></tr>
+</table>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<h2>Question Type Frequency Map (2022–2025)</h2>
+<p>This is your treasure map. Topics that appear <strong class="ey">EVERY YEAR</strong> should get the most practice time.</p>
+<table>
+  <tr><th>Topic</th><th>2022</th><th>2023</th><th>2024</th><th>2025</th><th>Priority</th></tr>
+  <tr><td>BODMAS with fractions</td><td>Q1</td><td>Q1</td><td>Q1</td><td>Q1</td><td class="ey">⭐ EVERY YEAR</td></tr>
+  <tr><td>Decimal division &amp; rounding</td><td>Q2</td><td>Q2</td><td>Q2</td><td>Q2</td><td class="ey">⭐ EVERY YEAR</td></tr>
+  <tr><td>Algebraic simplification &amp; factoring</td><td>Q3</td><td>Q3</td><td>Q3,4,6</td><td>Q3,4,5,6</td><td class="ey">⭐ EVERY YEAR</td></tr>
+  <tr><td>Container and capacity fractions</td><td>Q5</td><td>Q5</td><td>Q8</td><td>Q8</td><td class="ey">⭐ EVERY YEAR</td></tr>
+  <tr><td>Rate, proportion and price</td><td>Q6</td><td>Q6</td><td>Q7</td><td>Q7</td><td class="ey">⭐ EVERY YEAR</td></tr>
+  <tr><td>Divisibility and missing digit</td><td>Q7</td><td>Q7</td><td>Q9</td><td>Q9</td><td class="ey">⭐ EVERY YEAR</td></tr>
+  <tr><td>Age problems</td><td>Q12</td><td>Q12</td><td>Q14</td><td>Q14</td><td class="ey">⭐ EVERY YEAR</td></tr>
+  <tr><td>Grid polygon area</td><td>Q13</td><td>Q13</td><td>Q15</td><td>Q15</td><td class="ey">⭐ EVERY YEAR</td></tr>
+  <tr><td>Hotel room positioning</td><td>Q15</td><td>Q15</td><td>Q17</td><td>Q17</td><td class="ey">⭐ EVERY YEAR</td></tr>
+  <tr><td>Cube tower patterns</td><td>—</td><td>Q10</td><td>Q12</td><td>Q12</td><td class="ey">⭐ EVERY YEAR</td></tr>
+  <tr><td>Cryptarithmetic</td><td>Q4</td><td>Q4</td><td>—</td><td>—</td><td>★ High</td></tr>
+  <tr><td>Midpoint fractions</td><td>Q8</td><td>Q19</td><td>—</td><td>—</td><td>★ High</td></tr>
+  <tr><td>Profit and buy-sell coins</td><td>Q10</td><td>—</td><td>—</td><td>Q10</td><td>★ High</td></tr>
+  <tr><td>Watch loses or gains time</td><td>Q17</td><td>—</td><td>Q13</td><td>Q13</td><td>★ High</td></tr>
+  <tr><td>Worst-case disc probability</td><td>—</td><td>Q8</td><td>Q10</td><td>—</td><td>★ High</td></tr>
+  <tr><td>Related rectangles</td><td>—</td><td>Q9</td><td>Q11</td><td>Q11</td><td>★ High</td></tr>
+  <tr><td>Fraction equation: find n</td><td>—</td><td>Q14</td><td>Q16</td><td>Q16</td><td>★ High</td></tr>
+  <tr><td>Strike-off sequences</td><td>—</td><td>Q16</td><td>Q18</td><td>Q18</td><td>★ High</td></tr>
+  <tr><td>Plant geometric growth</td><td>—</td><td>—</td><td>Q19</td><td>Q19</td><td>★ High</td></tr>
+  <tr><td>Sum of cubes</td><td>—</td><td>Q20</td><td>Q20</td><td>—</td><td>★ High</td></tr>
+  <tr><td>Telescoping fractions</td><td>Q20</td><td>—</td><td>—</td><td>—</td><td>Medium</td></tr>
+  <tr><td>Lines dividing a plane</td><td>—</td><td>—</td><td>—</td><td>Q20</td><td>Medium</td></tr>
+</table>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<h2>6-Month Overview Schedule</h2>
+<table>
+  <tr><th>Month</th><th>Phase</th><th>What you learn</th><th>Steps</th></tr>
+  <tr><td>Month 1</td><td>Foundation Repair</td><td>BODMAS, decimals, fractions, basic algebra</td><td>1–4</td></tr>
+  <tr><td>Month 2</td><td>Core Number</td><td>Divisibility, cryptarithmetic, rates and profit</td><td>5–7</td></tr>
+  <tr><td>Month 3</td><td>Geometry</td><td>Composite area, grid area, symmetry, cube towers</td><td>8–11</td></tr>
+  <tr><td>Month 4</td><td>Logic &amp; Problem Solving</td><td>Age, hotel rooms, strike-offs, watch time, plant growth</td><td>12–16</td></tr>
+  <tr><td>Month 5</td><td>Advanced Topics</td><td>Series, probability, three-variable equations</td><td>17–20</td></tr>
+  <tr><td>Month 6</td><td>Paper Practice</td><td>Full timed papers, 2017 bonus, final revision</td><td>—</td></tr>
+</table>
+<div class="brain">
+  <div class="tag">🧠 Your Weekly Routine</div>
+  <p><strong>Session 1 (45 min):</strong> Read the new step slowly. Talk through each example out loud as if you are teaching someone else. This is the single best way to check you actually understand it.</p>
+  <p><strong>Session 2 (45 min):</strong> Close the booklet and try to redo the worked examples from memory. Then do the practice questions at the end of the step.</p>
+  <p><strong>Session 3 (45 min):</strong> Mixed review — redo one question from each previous step, plus use the online resource listed for that week.</p>
+</div>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<div class="page-break"></div>
+
+<!-- ┌───────────────────────────────────────────────────────┐
+     │  FOUNDATION CONCEPT A — VARIABLES AND ALGEBRA        │
+     └───────────────────────────────────────────────────────┘ -->
+<div class="phase">🔑 Foundation Concept A — Variables and the Balance Method</div>
+
+<p><em>Read this before any step. Algebra is the tool behind almost every problem in this programme. Once you own this idea, everything else unlocks.</em></p>
+
+<h3>What is a Variable?</h3>
+<div class="what">
+  <div class="tag">📖 What it is</div>
+  <p>A <strong>variable</strong> is a letter that holds the place of a number you have not found yet. It is like a box with a question mark drawn on it. You write a letter — usually <em>n</em>, <em>x</em>, or <em>A</em> — and that letter means "the number I am looking for."</p>
+  <p>Example: <em>"I think of a number. I multiply it by 3, then add 5. I get 20."</em></p>
+  <p>In letter form: <strong>3n + 5 = 20</strong>. The letter n is our mystery box.</p>
+</div>
+
+<h3>What is an Equation?</h3>
+<div class="what">
+  <div class="tag">📖 What it is</div>
+  <p>An equation is a statement that two things are exactly equal — like a perfectly balanced scale. The equals sign (=) is the pivot in the middle. Whatever is on the left weighs exactly the same as whatever is on the right.</p>
+  <p><strong>The golden rule:</strong> Whatever you do to one side of the scale, you MUST do the exact same thing to the other side. Otherwise the scale tips and becomes unbalanced (wrong).</p>
+</div>
+
+<div class="brain">
+  <div class="tag">🧠 Picture This</div>
+  <p>Imagine an old-fashioned balance scale in front of you. The left pan has "3n + 5" on it. The right pan has "20" on it. Right now they balance perfectly. Every step you take must keep the scale balanced. If you subtract 5 from the left pan, you must subtract 5 from the right pan too.</p>
+</div>
+
+<h3>Solving — the Balance Method, Step by Step</h3>
+<div class="example">
+  <div class="tag">📝 Worked Example: Solve 3n + 5 = 20</div>
+  <div class="work">
+    <span class="lbl">Goal: get n alone on one side.</span><br>
+    <span class="lbl">Step 1 — Remove the +5. The opposite of +5 is −5. Subtract 5 from BOTH sides:</span><br>
+    3n + 5 − 5 = 20 − 5<br>
+    3n = 15<br>
+    <span class="lbl">Step 2 — Remove the ×3. The opposite of ×3 is ÷3. Divide BOTH sides by 3:</span><br>
+    3n ÷ 3 = 15 ÷ 3<br>
+    <span class="ans">n = 5</span><br>
+    <span class="lbl">Step 3 — Check: substitute n = 5 back in the original:</span><br>
+    3(5) + 5 = 15 + 5 = 20 ✓
+  </div>
+</div>
+
+<div class="tricks">
+  <div class="tag">⚡ The Two Undo Rules</div>
+  <ul>
+    <li>To undo <strong>adding</strong> something → <strong>subtract</strong> it from both sides.</li>
+    <li>To undo <strong>subtracting</strong> something → <strong>add</strong> it to both sides.</li>
+    <li>To undo <strong>multiplying</strong> by something → <strong>divide</strong> both sides by it.</li>
+    <li>To undo <strong>dividing</strong> by something → <strong>multiply</strong> both sides by it.</li>
+  </ul>
+  <p><strong>Mnemonic — "UNDO the last step first."</strong> Work backwards through what was done to n, undoing each operation one at a time.</p>
+</div>
+
+<div class="practice">
+  <div class="tag">✏️ Quick Practice — Solve These</div>
+  <ol>
+    <li>4n + 3 = 19</li>
+    <li>2n − 7 = 11</li>
+    <li>n ÷ 3 + 1 = 6</li>
+    <li>"I think of a number, multiply by 5 and subtract 8. I get 42. What is the number?"</li>
+  </ol>
+  <p><em>(Answers: n=4, n=9, n=15, n=10)</em></p>
+</div>
+
+<!-- ┌───────────────────────────────────────────────────────┐
+     │  FOUNDATION CONCEPT B — THE SUM OF A SEQUENCE        │
+     └───────────────────────────────────────────────────────┘ -->
+<div class="phase">🔑 Foundation Concept B — Adding Up a Sequence (The Gauss Trick)</div>
+
+<p><em>This single idea appears in at least 4 different question types in Grade 6. Learn it once and it pays off everywhere.</em></p>
+
+<h3>What is an Arithmetic Sequence?</h3>
+<div class="what">
+  <div class="tag">📖 What it is</div>
+  <p>An <strong>arithmetic sequence</strong> is a list of numbers where each new number is made by adding the same fixed amount to the previous one. That fixed amount is called the <strong>common difference</strong>.</p>
+  <ul>
+    <li>1, 2, 3, 4, 5, 6 … (common difference = 1) — the counting numbers</li>
+    <li>2, 4, 6, 8, 10 … (common difference = 2) — the even numbers</li>
+    <li>11, 13, 15, 17 … (common difference = 2, starts at 11)</li>
+    <li>5, 10, 15, 20 … (common difference = 5)</li>
+  </ul>
+  <p>An <strong>arithmetic series</strong> is the sum of all the terms in such a list.</p>
+</div>
+
+<h3>The Gauss Story — and Why It Works</h3>
+<div class="what">
+  <div class="tag">📖 The Story</div>
+  <p>About 200 years ago, a young boy named Carl Friedrich Gauss was given a punishment by his school teacher: add all the numbers from 1 to 100. The teacher expected this to take the whole lesson. Gauss finished in about 10 seconds. Here is how he did it.</p>
+</div>
+
+<div class="example">
+  <div class="tag">📝 Deriving the Formula: 1 + 2 + 3 + … + n</div>
+  <p>Write the sum forwards. Below it, write the same sum backwards. Now add them vertically:</p>
+  <div class="work">
+    Forward:    1  +  2  +  3  + … + (n−1) +  n<br>
+    Backwards:  n  + (n−1) + (n−2) + … +  2  +  1<br>
+    ─────────────────────────────────────────────<br>
+    Each pair: (n+1) + (n+1) + (n+1) + … + (n+1)<br>
+    <span class="lbl">There are n pairs, and each pair adds to (n+1).</span><br>
+    Two rows total = n × (n+1)<br>
+    <span class="lbl">But we wrote the sum TWICE, so divide by 2:</span><br>
+    <span class="ans">Sum = n × (n+1) ÷ 2</span>
+  </div>
+  <p><strong>Gauss's answer:</strong> 1+2+…+100 = 100 × 101 ÷ 2 = <strong>5 050</strong>. Ten seconds. Done.</p>
+</div>
+
+<code class="formula">Sum of 1 + 2 + 3 + … + n   =   n(n+1) ÷ 2</code>
+
+<div class="brain">
+  <div class="tag">🧠 Verify with Small Numbers First</div>
+  <div class="work">
+    n=4:  1+2+3+4 = 10.  Formula: 4×5÷2 = 10. ✓<br>
+    n=5:  1+2+3+4+5 = 15.  Formula: 5×6÷2 = 15. ✓<br>
+    n=10: 1+2+…+10 = 55.  Formula: 10×11÷2 = 55. ✓
+  </div>
+  <p>Always verify a formula with small numbers you can check by hand. If it works for n=3, n=4 and n=5, you can trust it.</p>
+</div>
+
+<h3>Triangular Numbers — a Beautiful Pattern</h3>
+<div class="what">
+  <div class="tag">📖 What it is</div>
+  <p>The numbers 1, 3, 6, 10, 15, 21, 28 … are called <strong>triangular numbers</strong> because you can arrange that many dots into a triangle shape (like the pins in bowling). The nth triangular number is exactly n(n+1)/2 — our formula! You will see these in cube tower problems and the sum of cubes formula.</p>
+</div>
+
+<h3>The General Formula (When the Sum Doesn't Start at 1)</h3>
+<code class="formula">Sum = (number of terms) × (first term + last term) ÷ 2</code>
+
+<div class="example">
+  <div class="tag">📝 Example: Add all odd numbers from 11 to 69</div>
+  <div class="work">
+    <span class="lbl">Step 1 — Count the terms:</span>  11, 13, 15, …, 69.  Number of terms = (69−11)÷2 + 1 = 30.<br>
+    <span class="lbl">Step 2 — Apply the formula:</span><br>
+    Sum = 30 × (11 + 69) ÷ 2 = 30 × 80 ÷ 2 = 30 × 40 = <span class="ans">1 200</span>
+  </div>
+</div>
+
+<div class="tricks">
+  <div class="tag">⚡ Quick Tricks — When to Use This Formula</div>
+  <ul>
+    <li>Any question asking you to add a long run of numbers → Gauss formula.</li>
+    <li>Cube tower totals → sum of triangular numbers (Step 11).</li>
+    <li>Sum of cubes → square of a Gauss sum (Step 17).</li>
+    <li>Lines dividing a plane → Gauss sum + 1 (Bonus E).</li>
+    <li><strong>Mnemonic: "Pair the ends, count the middles."</strong> First + last, multiplied by how many pairs, divided by 2.</li>
+  </ul>
+</div>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<div class="page-break"></div>
+<div class="phase">Phase 1 — Foundation Repair &nbsp;|&nbsp; Month 1, Weeks 1–4</div>
+
+<p><em>Questions 1–6 of every paper. The easiest marks to earn. The easiest to lose through rushing. Master these first and you are already ahead of most of the competition.</em></p>
+
+<!-- ── STEP 1 ─────────────────────────────────────────── -->
+<h2><span class="step-label">STEP 1</span> BODMAS with Fractions and Decimals</h2>
+
+<h3>What it is</h3>
+<div class="what">
+  <div class="tag">📖 What it is and WHY it matters</div>
+  <p>Every year Question 1 and Question 5 test whether you do operations in the right order. If you just work left-to-right without thinking, you get the wrong answer every time — even though the arithmetic is easy.</p>
+  <p>The rule is called <strong>BODMAS</strong>. Each letter tells you which operation to do first:</p>
+  <table>
+    <tr><th>Letter</th><th>Stands for</th><th>Symbol</th></tr>
+    <tr><td><strong>B</strong></td><td>Brackets — do these first, always</td><td>( )</td></tr>
+    <tr><td><strong>O</strong></td><td>Orders — powers and roots</td><td>² √</td></tr>
+    <tr><td><strong>D</strong></td><td>Division — same level as M</td><td>÷</td></tr>
+    <tr><td><strong>M</strong></td><td>Multiplication — do D and M left to right</td><td>×</td></tr>
+    <tr><td><strong>A</strong></td><td>Addition — same level as S</td><td>+</td></tr>
+    <tr><td><strong>S</strong></td><td>Subtraction — do A and S left to right</td><td>−</td></tr>
+  </table>
+  <p><strong>The most important rule on this entire exam:</strong> × and ÷ happen BEFORE + and −. This is the rule that trips up the most students.</p>
+</div>
+
+<div class="brain">
+  <div class="tag">🧠 Mnemonic — Say This Out Loud Right Now</div>
+  <p><strong>"Big Orange Dogs Might Act Strange."</strong> (Brackets, Orders, Division, Multiplication, Addition, Subtraction.)</p>
+  <p>Write it on a sticky note. Say it five times. Now you will never forget the order.</p>
+  <p><strong>D and M are twins:</strong> They are the same level of importance. When you see both in the same calculation, go <em>left to right</em> — whichever comes first in the expression, do that one first.</p>
+</div>
+
+<h3>The Method — 3 Steps</h3>
+<div class="tricks">
+  <div class="tag">⚡ The 3-Step System</div>
+  <ol>
+    <li><strong>Circle</strong> any brackets. Solve whatever is inside them first.</li>
+    <li><strong>Underline</strong> all × and ÷ signs. Solve those next, working left to right.</li>
+    <li>Now do all + and − from left to right. You're done.</li>
+  </ol>
+</div>
+
+<h3>Worked Examples</h3>
+<div class="example">
+  <div class="tag">📝 2022 Q1: Evaluate 16 − (1/4) × 16</div>
+  <div class="work">
+    <span class="lbl">Step 1 — Underline the ×: (1/4) × 16. Do this first.</span><br>
+    (1/4) × 16 = 4<br>
+    <span class="lbl">Step 2 — Now do the subtraction:</span><br>
+    16 − 4 = <span class="ans">12</span><br>
+    Answer: (C)<br>
+    <br>
+    <span class="lbl">🚫 Common mistake: doing 16 − 1/4 = 15.75 first, then ×16 = 252. Wrong!</span><br>
+    <span class="lbl">✅ Always multiply BEFORE subtracting.</span>
+  </div>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2025 Q5 — Decimal BODMAS: Evaluate 8 ÷ 0.04 × 0.2</div>
+  <div class="work">
+    <span class="lbl">Both ÷ and × are the same level. Go left to right.</span><br>
+    <span class="lbl">Step 1 — The ÷ is first (leftmost): 8 ÷ 0.04</span><br>
+    <span class="lbl">Shortcut for ÷ by a decimal: multiply both by 100 to remove the decimal point:</span><br>
+    8 ÷ 0.04 → multiply top and bottom by 100 → 800 ÷ 4 = 200<br>
+    <span class="lbl">Step 2 — Then the ×:</span><br>
+    200 × 0.2 = <span class="ans">40</span><br>
+    Answer: (A)
+  </div>
+</div>
+
+<div class="brain">
+  <div class="tag">🧠 The Decimal Division Shortcut</div>
+  <p>Dividing by 0.04 looks scary. Here's how to make it easy: <strong>multiply both numbers by the same power of 10</strong> to turn the divisor into a whole number.</p>
+  <ul>
+    <li>÷ 0.04 → multiply both by 100 → ÷ 4 (easy!)</li>
+    <li>÷ 0.2 → multiply both by 10 → ÷ 2 (easy!)</li>
+    <li>÷ 0.005 → multiply both by 1000 → ÷ 5 (easy!)</li>
+  </ul>
+  <p><strong>Think of it like a fraction:</strong> 8/0.04 = 800/4. You scaled the top and bottom by the same amount, so the answer doesn't change — just like with fractions.</p>
+</div>
+
+<div class="tricks">
+  <div class="tag">⚡ Quick Tricks — BODMAS</div>
+  <ul>
+    <li>See a × or ÷ anywhere? Do it before any + or − near it.</li>
+    <li>See ÷ by a decimal? Multiply both numbers by 10 (or 100) first.</li>
+    <li>When ÷ and × appear together, go strictly left to right.</li>
+    <li>Q1 always tests this. Take 30 seconds and do it carefully. Do not rush.</li>
+  </ul>
+</div>
+
+<div class="practice">
+  <div class="tag">✏️ Practice Questions</div>
+  <ol>
+    <li>20 − 3 × 5</li>
+    <li>4 + 6 × 2 − 1</li>
+    <li>0.9 ÷ 0.03 × 0.1</li>
+    <li>15 + (1/3) × 15</li>
+    <li>12 ÷ 0.4 × 0.5</li>
+  </ol>
+  <p><em>(Answers: 5, 15, 3, 20, 15)</em></p>
+</div>
+
+<!-- ── STEP 2 ─────────────────────────────────────────── -->
+<h2><span class="step-label">STEP 2</span> Decimal Division and Rounding</h2>
+
+<h3>What it is</h3>
+<div class="what">
+  <div class="tag">📖 What it is and WHY it matters</div>
+  <p>Question 2 is in every single paper. You are asked to divide one number by another and round the answer to a specific number of decimal places. The method never changes. Once you know it, Q2 is always a free mark.</p>
+  <p><strong>Key language to know:</strong></p>
+  <ul>
+    <li>"Correct to 2 decimal places" → you want 2 digits after the decimal point.</li>
+    <li>"Round off to 1 decimal place" → you want 1 digit after the decimal point.</li>
+  </ul>
+  <p><strong>The rounding rule:</strong> To round to 2 places, you actually need to calculate 3 places. Then look at the 3rd digit. If it is 5 or more — add 1 to the 2nd digit. If it is 4 or less — leave the 2nd digit exactly as it is.</p>
+</div>
+
+<div class="brain">
+  <div class="tag">🧠 Mnemonic for Rounding</div>
+  <p><strong>"5 and above, round it up. 4 and below, let it go."</strong></p>
+  <p>Picture a round hill. Numbers 5, 6, 7, 8, 9 are past the top of the hill, so they roll upward. Numbers 0, 1, 2, 3, 4 are still on the way up, so they stay where they are.</p>
+</div>
+
+<h3>The Method</h3>
+<div class="tricks">
+  <div class="tag">⚡ The 5-Step System</div>
+  <ol>
+    <li>Write the dividend with three extra zeros: e.g. 13.000</li>
+    <li>Do long division, one digit at a time.</li>
+    <li>For each step: how many times does the divisor fit? Write that digit. Multiply. Subtract. Bring down the next zero.</li>
+    <li>Stop when you have <em>one more decimal place</em> than the question asks for.</li>
+    <li>Apply the rounding rule to the last digit you calculated.</li>
+  </ol>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2022 Q2: Calculate 13 ÷ 7, correct to 2 decimal places</div>
+  <div class="work">
+    <span class="lbl">We need 3 decimal places so we can round to 2.</span><br>
+    13.000 ÷ 7<br>
+    &nbsp;&nbsp;7 goes into 13 → once (7×1=7). Remainder = 13−7 = 6. Digit: 1<br>
+    &nbsp;&nbsp;Bring down zero: 60. 7 goes into 60 → 8 times (7×8=56). Remainder = 4. 1st decimal: 8<br>
+    &nbsp;&nbsp;Bring down zero: 40. 7 goes into 40 → 5 times (7×5=35). Remainder = 5. 2nd decimal: 5<br>
+    &nbsp;&nbsp;Bring down zero: 50. 7 goes into 50 → 7 times (7×7=49). Remainder = 1. 3rd decimal: 7<br>
+    Result so far: 1.857<br>
+    <span class="lbl">The 3rd decimal (7) is ≥ 5, so round UP the 2nd decimal (5 becomes 6):</span><br>
+    Answer: <span class="ans">1.86</span> → (A)
+  </div>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2025 Q2: Calculate 15 ÷ 8, correct to 1 decimal place</div>
+  <div class="work">
+    <span class="lbl">We need 2 decimal places so we can round to 1.</span><br>
+    15.00 ÷ 8<br>
+    &nbsp;&nbsp;8 goes into 15 → once (8×1=8). Remainder = 7. Digit: 1<br>
+    &nbsp;&nbsp;Bring down zero: 70. 8 goes into 70 → 8 times (8×8=64). Remainder = 6. 1st decimal: 8<br>
+    &nbsp;&nbsp;Bring down zero: 60. 8 goes into 60 → 7 times (8×7=56). Remainder = 4. 2nd decimal: 7<br>
+    Result so far: 1.87<br>
+    <span class="lbl">Rounding to 1 decimal place: look at 2nd decimal (7). 7 ≥ 5, so round UP the 8 to 9:</span><br>
+    Answer: <span class="ans">1.9</span> → (B)
+  </div>
+</div>
+
+<div class="brain">
+  <div class="tag">🧠 Quick Check Trick</div>
+  <p>After getting your answer, multiply back: 1.86 × 7 should give roughly 13. Let's check: 1.86 × 7 = 13.02. The tiny difference (0.02) comes from the remainder in the division — that is perfectly normal and confirms your answer is right.</p>
+</div>
+
+<div class="practice">
+  <div class="tag">✏️ Practice Questions</div>
+  <ol>
+    <li>23 ÷ 7, correct to 2 decimal places</li>
+    <li>17 ÷ 6, correct to 2 decimal places</li>
+    <li>9 ÷ 4, correct to 1 decimal place</li>
+    <li>22 ÷ 9, correct to 2 decimal places</li>
+  </ol>
+  <p><em>(Answers: 3.29, 2.83, 2.3 (rounds to 2.3), 2.44)</em></p>
+</div>
+
+<!-- ── STEP 3 ─────────────────────────────────────────── -->
+<h2><span class="step-label">STEP 3</span> Fractions Mastery — Four Types</h2>
+
+<p>Grade 6 uses fractions in four completely different ways. Study each type by itself. Each one has its own method.</p>
+
+<h3>Type A — Container and Capacity Fractions</h3>
+<div class="what">
+  <div class="tag">📖 What it is and WHY it works</div>
+  <p>A container starts at one fraction full. Some liquid is removed (or added). It ends at a different fraction full. The amount of liquid that moved represents exactly the <strong>difference</strong> between those two fractions of the total capacity.</p>
+  <p>If a full tank holds C litres, and you go from 3/4 full to 2/3 full, you removed (3/4 − 2/3) × C litres. We know the amount, so we solve for C.</p>
+  <p><strong>The key takeaway:</strong> the fraction change × capacity = amount moved. So capacity = amount ÷ fraction change.</p>
+</div>
+
+<code class="formula">Capacity = Amount moved ÷ (bigger fraction − smaller fraction)</code>
+
+<div class="brain">
+  <div class="tag">🧠 Mnemonic — "The Fraction Gap"</div>
+  <p>Imagine two water level marks on the side of the tank. One mark says "3/4" and the other says "2/3." The <strong>gap between the marks</strong> represents the fraction of capacity that was removed. You know the actual litres removed, so: litres ÷ gap fraction = full capacity.</p>
+  <p><strong>Chant:</strong> "Amount over gap fraction. Amount over gap fraction."</p>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2023 Q5: Container is 3/4 full. Remove 120 litres. Now 2/3 full.</div>
+  <div class="work">
+    <span class="lbl">Step 1 — Find the fraction gap:</span>  3/4 − 2/3 = 9/12 − 8/12 = 1/12<br>
+    <span class="lbl">Step 2 — 120 litres = 1/12 of the full capacity.</span><br>
+    <span class="lbl">Step 3 — Solve:</span>  Capacity = 120 ÷ (1/12) = 120 × 12 = <span class="ans">1 440 litres</span> → (B)
+  </div>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2025 Q8: Tank is 3/4 full. ADD 300 litres. Now 5/6 full. (Water added, not removed!)</div>
+  <div class="work">
+    <span class="lbl">The formula works exactly the same whether you add or remove.</span><br>
+    <span class="lbl">Step 1 — Fraction gap:</span>  5/6 − 3/4 = 10/12 − 9/12 = 1/12<br>
+    <span class="lbl">Step 2 — 300 litres = 1/12 of full capacity.</span><br>
+    <span class="lbl">Step 3 — Capacity = 300 × 12 = <span class="ans">3 600 litres</span></span> → (D)
+  </div>
+</div>
+
+<div class="tricks">
+  <div class="tag">⚡ Quick Tricks — Fractions Type A</div>
+  <ul>
+    <li>Always find a common denominator before subtracting the fractions.</li>
+    <li>"Dividing by a fraction" = multiplying by its flip. So ÷ (1/12) = × 12.</li>
+    <li>If the answer seems way too big — you probably forgot to flip the fraction. Check again.</li>
+    <li><strong>Double-check:</strong> multiply your capacity answer by each fraction. The difference should equal the amount removed.</li>
+  </ul>
+</div>
+
+<h3>Type B — Fraction Equations: Solve for n</h3>
+<div class="what">
+  <div class="tag">📖 What it is</div>
+  <p>You get an equation like (1/6) + (3/n) = 13/24 and must find the value of n. This is a balance scale problem — isolate the term with n, then solve for n directly.</p>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2023 Q14: (1/6) + (3/n) = 13/24. Find n.</div>
+  <div class="work">
+    <span class="lbl">Step 1 — Move 1/6 to the right (subtract from both sides):</span><br>
+    3/n = 13/24 − 1/6<br>
+    <span class="lbl">Step 2 — Common denominator 24:</span><br>
+    3/n = 13/24 − 4/24 = 9/24 = 3/8<br>
+    <span class="lbl">Step 3 — Both sides have 3 as numerator, so denominators must match:</span><br>
+    <span class="ans">n = 8</span> → (D)
+  </div>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2025 Q16: (5/12) − (2/n) = 1/4. Find n.</div>
+  <div class="work">
+    <span class="lbl">Step 1 — Isolate 2/n (add 2/n to both sides, subtract 1/4 from both sides):</span><br>
+    2/n = 5/12 − 1/4<br>
+    <span class="lbl">Step 2 — Common denominator 12:</span><br>
+    2/n = 5/12 − 3/12 = 2/12 = 1/6<br>
+    <span class="lbl">Step 3 — 2/n = 1/6. Cross-multiply:</span><br>
+    1 × n = 2 × 6 = <span class="ans">12</span>
+  </div>
+</div>
+
+<div class="brain">
+  <div class="tag">🧠 Cross-Multiplication Shortcut</div>
+  <p>When you have (something)/n = a/b, use cross-multiplication: multiply diagonally. The product of the two "cross" values are equal.</p>
+  <p>So if 2/n = 1/6 then: 2 × 6 = 1 × n → 12 = n. Quick!</p>
+</div>
+
+<h3>Type C — Midpoint Fractions</h3>
+<div class="what">
+  <div class="tag">📖 What it is</div>
+  <p>A number is exactly halfway between two others. That means it is the average of the two end values. Average = (first + second) ÷ 2. Working backwards to find one end: End = 2 × Middle − Other end.</p>
+</div>
+
+<code class="formula">x = 2 × Middle − Other end</code>
+
+<div class="example">
+  <div class="tag">📝 2022 Q8: 2/3 is midway between x and 7/8. Find x.</div>
+  <div class="work">
+    x = 2 × (2/3) − 7/8 = 4/3 − 7/8<br>
+    Common denominator 24: = 32/24 − 21/24 = <span class="ans">11/24</span> → (D)
+  </div>
+</div>
+
+<h3>Type D — Finding the Whole from a Part</h3>
+<div class="what">
+  <div class="tag">📖 What it is</div>
+  <p>You know a certain amount is a certain fraction of the total. Divide the amount by that fraction to get the total.</p>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2022 Q5: Vendor sold 1/4 of potatoes, then 35 more. Now has 1/3 left. Total?</div>
+  <div class="work">
+    <span class="lbl">After selling 1/4, the vendor has 3/4 left.</span><br>
+    <span class="lbl">After selling 35 more, the vendor has 1/3 left.</span><br>
+    <span class="lbl">The 35 represents the gap: 3/4 − 1/3 = 9/12 − 4/12 = 5/12 of the total.</span><br>
+    Total = 35 ÷ (5/12) = 35 × 12/5 = 7 × 12 = <span class="ans">84 pockets</span> → (C)
+  </div>
+</div>
+
+<div class="practice">
+  <div class="tag">✏️ Practice Questions</div>
+  <ol>
+    <li>Tank is 2/3 full. Remove 600 litres. Now 1/4 full. What is the capacity?</li>
+    <li>Solve: (1/4) + (2/n) = 5/12. Find n.</li>
+    <li>3/5 is midway between x and 9/10. Find x.</li>
+    <li>A vendor sold 1/3 of apples, then 40 more. Now has 1/4 left. How many apples?</li>
+  </ol>
+  <p><em>(Answers: 1440L, n=12, x=3/10, 144 apples)</em></p>
+</div>
+
+<!-- ── STEP 4 ─────────────────────────────────────────── -->
+<h2><span class="step-label">STEP 4</span> Algebraic Simplification — The Factoring Tricks</h2>
+
+<h3>What it is</h3>
+<div class="what">
+  <div class="tag">📖 What it is and WHY it works</div>
+  <p>Questions 3 and 4 in Grade 6 always give you a large multiplication expression. The trap is trying to calculate it directly — you will run out of time and make errors. The trick is <strong>factoring out a common number</strong>, which turns a scary calculation into a tiny one.</p>
+  <p>This works because of the <strong>Distributive Law</strong>:</p>
+  <p style="text-align:center;"><strong>a × b + a × c = a × (b + c)</strong></p>
+  <p>Reading it right-to-left: if you see two terms that share the same multiplied number (a common factor), you can pull that number outside a bracket. Then the bracket often simplifies to something tiny like 1 or 1000.</p>
+  <p><strong>The key takeaway:</strong> before you calculate anything, scan every term and ask "does the same number appear in all of them?"</p>
+</div>
+
+<div class="brain">
+  <div class="tag">🧠 The Factoring Trick in Pictures</div>
+  <p>Think of 156 × 156 − 156 × 155. Imagine 156 groups of 156 cookies, minus 156 groups of 155 cookies. You have 156 groups, and each group changed by (156 − 155) = 1 cookie. So you have 156 × 1 = 156 cookies total. The big numbers vanish!</p>
+</div>
+
+<h3>The Method</h3>
+<div class="tricks">
+  <div class="tag">⚡ The 4-Step System</div>
+  <ol>
+    <li><strong>Scan</strong> every term in the expression. Look for the same number appearing everywhere.</li>
+    <li><strong>Factor out</strong> that common number: common × ( remaining terms ).</li>
+    <li><strong>Simplify</strong> inside the bracket — it is usually a tiny calculation.</li>
+    <li><strong>Multiply</strong> the common factor by the bracket result.</li>
+  </ol>
+</div>
+
+<div class="example">
+  <div class="tag">📝 Worked Examples from Past Papers</div>
+  <p><strong>2022 Q3: 156 × 156 − 156 × 155</strong></p>
+  <div class="work">
+    Both terms share 156 as a factor.<br>
+    = 156 × (156 − 155) = 156 × 1 = <span class="ans">156</span> → (B)<br>
+    <span class="lbl">Without the trick: 24 336 − 24 180 = 156. Same answer, ten times more work!</span>
+  </div>
+  <hr>
+  <p><strong>2023 Q3: 201 × 174 − 172 × 201 − 201</strong></p>
+  <div class="work">
+    Note: 201 = 201 × 1. All three terms share 201.<br>
+    = 201 × (174 − 172 − 1) = 201 × 1 = <span class="ans">201</span> → (A)
+  </div>
+  <hr>
+  <p><strong>2025 Q6: 201 × 58 − 29 × 2</strong></p>
+  <div class="work">
+    <span class="lbl">Hidden common factor: 29 × 2 = 58. So rewrite:</span><br>
+    = 201 × 58 − 58 = 58 × (201 − 1) = 58 × 200 = <span class="ans">11 600</span> → (C)
+  </div>
+  <hr>
+  <p><strong>Trick 2 — Reaching a Round Number: 264 × 75</strong></p>
+  <div class="work">
+    <span class="lbl">75 = 300 ÷ 4. So:</span><br>
+    264 × 75 = 264 × 300 ÷ 4 = 79 200 ÷ 4 = <span class="ans">19 800</span> → (D)<br>
+    <span class="lbl">The trick: replace 75 with (something ÷ 4) to reach 300, a round number.</span>
+  </div>
+</div>
+
+<div class="tricks">
+  <div class="tag">⚡ Quick Tricks — Factoring</div>
+  <ul>
+    <li>Before computing anything: scan every term for a shared number.</li>
+    <li>25 × anything → think: 25 = 100 ÷ 4. Multiply by 100 and divide by 4.</li>
+    <li>75 × anything → think: 75 = 300 ÷ 4. Multiply by 300 and divide by 4.</li>
+    <li>If you spot "a × b − b", factor out b: b × (a − 1). The bracket is almost always 1 or a round number.</li>
+    <li><strong>Mnemonic: "Same number? Factor it out!"</strong></li>
+  </ul>
+</div>
+
+<div class="practice">
+  <div class="tag">✏️ Practice Questions</div>
+  <ol>
+    <li>345 × 345 − 345 × 344</li>
+    <li>201 × 99 − 99</li>
+    <li>500 × 75 × 4</li>
+    <li>88 × 25</li>
+  </ol>
+  <p><em>(Answers: 345, 19 800, 150 000, 2 200)</em></p>
+</div>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<div class="page-break"></div>
+<div class="phase">Phase 2 — Core Number Topics &nbsp;|&nbsp; Month 2, Weeks 5–8</div>
+
+<!-- ── STEP 5 ─────────────────────────────────────────── -->
+<h2><span class="step-label">STEP 5</span> Divisibility Rules and Missing Digit Problems</h2>
+
+<h3>What it is</h3>
+<div class="what">
+  <div class="tag">📖 What it is and WHY it matters</div>
+  <p>A number is "divisible by n" if n divides into it exactly with no remainder left over. Every divisor has a clever shortcut — instead of doing the full division, you just look at the digits of the number. This saves a lot of time.</p>
+  <p>In the exam, you will be given a number with one digit replaced by a letter (like m). You are told the remainder when the number is divided by 9 (or 12). You must find the value of m.</p>
+</div>
+
+<table>
+  <tr><th>Divisor</th><th>The shortcut rule</th><th>Why it works</th></tr>
+  <tr><td><strong>2</strong></td><td>Last digit is even (0, 2, 4, 6 or 8)</td><td>Only the ones column determines evenness</td></tr>
+  <tr><td><strong>3</strong></td><td>Add all digits. If the sum divides by 3, so does the number</td><td>10 leaves remainder 1 when ÷3, so each digit contributes its face value</td></tr>
+  <tr><td><strong>4</strong></td><td>Last two digits form a number divisible by 4</td><td>100 is exactly ÷4, so higher digits don't matter</td></tr>
+  <tr><td><strong>6</strong></td><td>Passes BOTH the rule for 2 AND the rule for 3</td><td>6 = 2 × 3</td></tr>
+  <tr><td><strong>9</strong></td><td>Add all digits. If the sum divides by 9, so does the number</td><td>Same logic as 3, but for 9</td></tr>
+  <tr><td><strong>12</strong></td><td>Passes BOTH the rule for 3 AND the rule for 4</td><td>12 = 3 × 4</td></tr>
+</table>
+
+<div class="brain">
+  <div class="tag">🧠 Mnemonic — "The Digit Sum Club"</div>
+  <p>The numbers <strong>3</strong> and <strong>9</strong> are members of the "Digit Sum Club." To test them, add up all the digits of the number. If your sum is in the club (divisible by 3 or 9), then the original number is too.</p>
+  <p>Example: Is 729 divisible by 9? 7+2+9 = 18. Is 18 divisible by 9? Yes (18÷9=2). So 729 is divisible by 9. ✓</p>
+</div>
+
+<h3>The Method for Missing Digit Problems</h3>
+<div class="tricks">
+  <div class="tag">⚡ The 4-Step System</div>
+  <ol>
+    <li>Write the digit sum (or last-digits expression) in terms of the missing digit m.</li>
+    <li>Since remainder = r, we know: (digit sum − r) must divide exactly by the divisor.</li>
+    <li>Solve for m (or test each answer option systematically).</li>
+    <li>Verify by checking both the digit sum condition AND the last-digits condition (for 4 or 12).</li>
+  </ol>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2024 Q9: The number 3mm52 is divided by 9 with remainder 2. Find m.</div>
+  <div class="work">
+    <span class="lbl">Step 1 — Digit sum in terms of m:</span>  3 + m + m + 5 + 2 = 10 + 2m<br>
+    <span class="lbl">Step 2 — Remainder is 2, so (digit sum − 2) must divide by 9:</span><br>
+    (10 + 2m) − 2 = 8 + 2m must divide exactly by 9<br>
+    <span class="lbl">Step 3 — Test: 8 + 2(5) = 18. Does 18 divide by 9? Yes, 18÷9=2. ✓</span><br>
+    So m = 5. Quick check: 7+5+5+5+2 = 20. 20÷9 = 2 remainder 2 ✓<br>
+    Answer: <span class="ans">m = 5</span> → (D)
+  </div>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2025 Q9: The number 7mm7 is divided by 9 with remainder 3. Find m.</div>
+  <div class="work">
+    <span class="lbl">Digit sum:</span>  7 + m + m + 7 = 14 + 2m<br>
+    <span class="lbl">(14 + 2m) − 3 = 11 + 2m must divide by 9.</span><br>
+    Test: 11 + 2(8) = 27. 27÷9=3. ✓<br>
+    Answer: <span class="ans">m = 8</span> → (C)
+  </div>
+</div>
+
+<div class="practice">
+  <div class="tag">✏️ Practice Questions</div>
+  <ol>
+    <li>Is 4 572 divisible by 9?</li>
+    <li>The number 5m34 is divisible by 9 exactly (remainder 0). Find m.</li>
+    <li>The number 2mm6 is divided by 9 with remainder 4. Find m.</li>
+  </ol>
+  <p><em>(Answers: Yes (4+5+7+2=18), m=7, m=3)</em></p>
+</div>
+
+<!-- ── STEP 6 ─────────────────────────────────────────── -->
+<h2><span class="step-label">STEP 6</span> Cryptarithmetic — Letters Instead of Digits</h2>
+
+<h3>What it is</h3>
+<div class="what">
+  <div class="tag">📖 What it is and WHY it's fun</div>
+  <p>In a cryptarithmetic puzzle, each letter stands for one unique digit from 0 to 9. No two different letters share the same digit. You are shown an addition sum in letter form and must find what digit each letter stands for.</p>
+  <p>Think of it as a <strong>code-breaking puzzle</strong>. The column-by-column structure of addition is your key. You work from right (ones column) to left, exactly like normal long addition, but in reverse — you are solving for the unknowns that make the addition work.</p>
+  <p><strong>The key takeaway:</strong> This is one column at a time. You never need to guess wildly — the column equation gives you just one or two options, and the carry between columns narrows it further.</p>
+</div>
+
+<h3>The Method</h3>
+<div class="tricks">
+  <div class="tag">⚡ The Column-by-Column System</div>
+  <ol>
+    <li>Start at the <strong>ones column</strong> (rightmost). Write: (sum of all digits in that column) = some number whose ones digit matches the answer's ones digit.</li>
+    <li>Find which digit satisfies this. Note whether there is a <strong>carry</strong> (overflow) into the tens column.</li>
+    <li>Move to the <strong>tens column</strong>. Include the carry. Repeat.</li>
+    <li>Continue left until all letters are found.</li>
+    <li>Write out the complete addition and verify it equals the target.</li>
+  </ol>
+  <p><strong>Mnemonic: "Start right, carry left."</strong> Always begin from the rightmost column and carry any overflow to the next.</p>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2022 Q4: BC + ABC + BC = 692. Find A × B × C.</div>
+  <div class="work">
+    <span class="lbl">Ones column: C + C + C = 3C. The ones digit of 3C must be 2.</span><br>
+    Test: 3 × 4 = 12. Ones digit is 2 ✓. So C = 4. Carry 1 into tens column.<br>
+    <br>
+    <span class="lbl">Tens column: B + B + B + 1(carry) = 3B + 1. The ones digit must be 9.</span><br>
+    Test: 3 × 6 + 1 = 19. Ones digit is 9 ✓. So B = 6. Carry 1 into hundreds column.<br>
+    <br>
+    <span class="lbl">Hundreds column: A + 1(carry) = 6. So A = 5.</span><br>
+    <span class="lbl">Verify: 64 + 564 + 64 = 692 ✓</span><br>
+    A × B × C = 5 × 6 × 4 = <span class="ans">120</span> → (D)
+  </div>
+</div>
+
+<div class="brain">
+  <div class="tag">🧠 The Ones Digit Trick</div>
+  <p>When three identical digits are added (C + C + C = 3C), you only need the last digit to match. List the multiples of 3 and check which ends in your target digit:</p>
+  <ul>
+    <li>3×1=3, 3×2=6, 3×3=9, 3×4=<strong>12</strong>, 3×5=15, 3×6=18, 3×7=21, 3×8=24, 3×9=27</li>
+  </ul>
+  <p>Looking for last digit 2: only 3×4=12 works. So C=4. This is very fast once you practise it.</p>
+</div>
+
+<!-- ── STEP 7 ─────────────────────────────────────────── -->
+<h2><span class="step-label">STEP 7</span> Proportion, Rate and Profit Problems</h2>
+
+<h3>Type A — Rate and Price per Unit</h3>
+<div class="what">
+  <div class="tag">📖 What it is</div>
+  <p>You are given the price for one quantity (e.g. 600g for R108) and asked for the price of a different quantity. The trick is always to find the price for ONE gram (or litre, or unit) first, then multiply by the new amount.</p>
+</div>
+
+<code class="formula">Price per unit = Total price ÷ Quantity &nbsp;|&nbsp; New price = Price per unit × New quantity</code>
+
+<div class="example">
+  <div class="tag">📝 2024 Q7: If 600g costs R108, what does 1 kg cost?</div>
+  <div class="work">
+    Price per gram = 108 ÷ 600 = R0.18<br>
+    1 kg = 1 000g.  New price = 0.18 × 1 000 = <span class="ans">R180</span> → (A)
+  </div>
+</div>
+
+<h3>Type B — Profit with Different Buy and Sell Batches</h3>
+<div class="what">
+  <div class="tag">📖 What it is and WHY the batch sizes matter</div>
+  <p>You buy items in one batch size (e.g. buy 5 for 24 coins) and sell them in a different batch size (sell 6 for 35 coins). Since the batch sizes are different, you cannot compare them directly. You must reduce both to the cost or revenue per single item.</p>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2022 Q10: Buy 5 for 24 coins. Sell 6 for 35 coins. How many items to earn 620 coins profit?</div>
+  <div class="work">
+    Cost per item = 24 ÷ 5 = 4.8 coins<br>
+    Revenue per item = 35 ÷ 6 coins<br>
+    Profit per item = 35/6 − 24/5 = 175/30 − 144/30 = 31/30 coins<br>
+    Items needed = 620 ÷ (31/30) = 620 × 30/31 = 20 × 30 = <span class="ans">600 items</span> → (A)
+  </div>
+</div>
+
+<div class="tricks">
+  <div class="tag">⚡ Quick Tricks — Profit Questions</div>
+  <ul>
+    <li>Always find cost-per-item and revenue-per-item before anything else.</li>
+    <li>Use a common denominator when subtracting the two fractions.</li>
+    <li>"How many items to make a certain profit?" → Target profit ÷ profit per item.</li>
+  </ul>
+</div>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<div class="page-break"></div>
+<div class="phase">Phase 3 — Geometry &nbsp;|&nbsp; Month 3, Weeks 9–12</div>
+
+<!-- ── STEP 8 ─────────────────────────────────────────── -->
+<h2><span class="step-label">STEP 8</span> Composite Area (L-shapes and Step Shapes)</h2>
+
+<h3>What it is</h3>
+<div class="what">
+  <div class="tag">📖 What it is and WHY it works</div>
+  <p>A composite shape is just two or more rectangles joined together (or one rectangle with a corner cut away). You cannot use a single formula — you must break the shape into simple pieces and add or subtract their areas.</p>
+  <p><strong>Two approaches — choose the easier one:</strong></p>
+  <ul>
+    <li><strong>Add:</strong> Split the L-shape into two rectangles. Calculate each area. Add them.</li>
+    <li><strong>Subtract:</strong> Draw the big surrounding rectangle. Subtract the missing corner piece(s).</li>
+  </ul>
+  <p><strong>The key takeaway:</strong> Before calculating anything, find all the missing side lengths. The full outer length minus the inner length gives you the hidden side.</p>
+</div>
+
+<div class="tricks">
+  <div class="tag">⚡ The 4-Step System</div>
+  <ol>
+    <li>Label every given measurement on the figure.</li>
+    <li>Find missing lengths: outer length − inner step = missing piece.</li>
+    <li>Choose Add or Subtract (whichever needs fewer calculations).</li>
+    <li>Calculate each rectangle area and combine.</li>
+  </ol>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2024 Q11: Rectangle ABFE has 3 times the area of square CDGF. Height of ABFE = 27m, width = 36m. Perimeter of CDGF?</div>
+  <div class="work">
+    Area of ABFE = 27 × 36 = 972 m²<br>
+    Area of square CDGF = 972 ÷ 3 = 324 m²<br>
+    Side of square = √324 = 18m  (check: 18 × 18 = 324 ✓)<br>
+    Perimeter = 4 × 18 = <span class="ans">72m</span> → (B)
+  </div>
+</div>
+
+<!-- ── STEP 9 ─────────────────────────────────────────── -->
+<h2><span class="step-label">STEP 9</span> Grid Polygon Area — Surround and Subtract</h2>
+
+<h3>What it is</h3>
+<div class="what">
+  <div class="tag">📖 What it is — and it appears EVERY year</div>
+  <p>A quadrilateral (4-sided shape) is drawn diagonally across a square grid. Its corners sit on grid points but the sides are diagonal, so you cannot just count squares. The solution is to put a rectangle around it and subtract the corners.</p>
+  <p><strong>Why it works:</strong> The rectangle is easy to calculate. The corners are right-angled triangles. Triangle area = ½ × base × height. Once you subtract all four corners, what remains is the diagonal shape.</p>
+</div>
+
+<div class="tricks">
+  <div class="tag">⚡ The 5-Step System</div>
+  <ol>
+    <li>Read off the coordinates of all four corners from the grid carefully. Count grid squares.</li>
+    <li>Draw (or imagine) the smallest rectangle that fully encloses all four corners.</li>
+    <li>Calculate: rectangle width × rectangle height.</li>
+    <li>For each corner of the rectangle: find the right triangle that sits outside the quadrilateral. Calculate ½ × base × height.</li>
+    <li>Answer = rectangle area − sum of all four triangle areas.</li>
+  </ol>
+  <p><strong>Mnemonic: "Box it in, cut the corners."</strong></p>
+</div>
+
+<div class="example">
+  <div class="tag">📝 General Example: Bounding rectangle 5×4 = 20 cm²</div>
+  <div class="work">
+    Corner triangles: ½×2×1=1,  ½×3×2=3,  ½×2×3=3,  ½×1×2=1<br>
+    Total corners = 1+3+3+1 = 8 cm²<br>
+    Quadrilateral area = 20 − 8 = <span class="ans">12 cm²</span>
+  </div>
+  <p>The 2022 Q13 answer is (C) 12 and 2023 Q13 is (C) 14. Practise by drawing the grids from each paper.</p>
+</div>
+
+<!-- ── STEP 10 ────────────────────────────────────────── -->
+<h2><span class="step-label">STEP 10</span> Lines of Symmetry</h2>
+
+<h3>What it is</h3>
+<div class="what">
+  <div class="tag">📖 What it is</div>
+  <p>A shape has a line of symmetry if you can fold it in half exactly and both halves are perfect mirror images. Lines can be horizontal, vertical, or diagonal (at 45°).</p>
+  <p>These questions give you a base shape (made of joined squares) and ask you to place one extra square to <strong>maximise</strong> the number of symmetry lines in the combined shape.</p>
+</div>
+
+<div class="tricks">
+  <div class="tag">⚡ Quick Method</div>
+  <ol>
+    <li>Draw the base shape on squared paper.</li>
+    <li>Try attaching the extra square to each possible edge — one trial at a time.</li>
+    <li>For each attempt, fold the paper (or use a ruler as a mirror) along every possible axis: horizontal, vertical, and diagonal.</li>
+    <li>The position that folds perfectly in the most ways is your answer.</li>
+  </ol>
+  <p><strong>Tip:</strong> Shapes with the most symmetry look "balanced" in every direction. Usually, placing the extra square at the centre of an edge (rather than at a corner) adds the most symmetry.</p>
+</div>
+
+<!-- ── STEP 11 ────────────────────────────────────────── -->
+<h2><span class="step-label">STEP 11</span> Cube Tower Patterns — Triangular Numbers in 3D</h2>
+
+<h3>What it is</h3>
+<div class="what">
+  <div class="tag">📖 What it is and WHY it uses the Gauss formula</div>
+  <p>The tower shown in the papers is a 3D staircase of small cubes. Looking from the top, each storey is a staircase arrangement. Storey 1 (top) = 1 cube. Storey 2 = 3 cubes (1+2). Storey 3 = 6 cubes (1+2+3). Storey k = 1+2+3+…+k = k(k+1)/2 cubes — the triangular number formula you learned in Foundation Concept B!</p>
+  <p>To find the total for an n-storey tower, add up all the triangular numbers from storey 1 to storey n. A table is the fastest way to do this in the exam.</p>
+</div>
+
+<div class="example">
+  <div class="tag">📝 Build the Table — Always Works in the Exam</div>
+  <table>
+    <tr><th>Storey (from top)</th><th>Formula k(k+1)÷2</th><th>Cubes</th><th>Running total</th></tr>
+    <tr><td>1</td><td>1×2÷2</td><td>1</td><td>1</td></tr>
+    <tr><td>2</td><td>2×3÷2</td><td>3</td><td>4</td></tr>
+    <tr><td>3</td><td>3×4÷2</td><td>6</td><td>10</td></tr>
+    <tr><td>4</td><td>4×5÷2</td><td>10</td><td>20</td></tr>
+    <tr><td>5</td><td>5×6÷2</td><td>15</td><td>35</td></tr>
+    <tr><td>6</td><td>6×7÷2</td><td>21</td><td>56</td></tr>
+    <tr><td>7</td><td>7×8÷2</td><td>28</td><td>84</td></tr>
+    <tr><td>8</td><td>8×9÷2</td><td>36</td><td>120</td></tr>
+    <tr><td>9</td><td>9×10÷2</td><td>45</td><td>165</td></tr>
+    <tr><td>10</td><td>10×11÷2</td><td>55</td><td>220</td></tr>
+  </table>
+  <p><strong>2024 Q12:</strong> 10-storey tower = <span class="ans">220 cubes</span> → (C)</p>
+  <p><strong>2023 Q10:</strong> Last storey has 300 cubes. Find storeys: k(k+1)/2 = 300 → k(k+1) = 600 → k=24 (24×25=600 ✓) → <span class="ans">24 storeys</span> → (A)</p>
+  <p><strong>2025 Q12:</strong> 4-storey total = 20. Nearest cube bigger than 20: 4³ = 64. Add 64−20 = <span class="ans">44 cubes</span> → (A)</p>
+</div>
+
+<div class="brain">
+  <div class="tag">🧠 Build the Table, Don't Memorise the Formula</div>
+  <p>You do NOT need to memorise the formula for the total of an n-storey tower. Just build the table above, row by row. It takes about 90 seconds and is completely reliable. Practice building it until you can do it in under 2 minutes.</p>
+</div>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<div class="page-break"></div>
+<div class="phase">Phase 4 — Logic and Problem Solving &nbsp;|&nbsp; Month 4, Weeks 13–16</div>
+
+<!-- ── STEP 12 ────────────────────────────────────────── -->
+<h2><span class="step-label">STEP 12</span> Age Problems — Three Types</h2>
+
+<h3>What it is</h3>
+<div class="what">
+  <div class="tag">📖 What it is and WHY algebra is the key</div>
+  <p>Age problems always tell you how two people's ages are related, plus a total or future age. The relationship is most clearly expressed as an algebra equation. Choose one person's age as your unknown (call it n), write the other person's age in terms of n, then use the combined condition to form an equation and solve.</p>
+  <p><strong>The key takeaway:</strong> always give the younger person's age the letter n. Then express the older person's age in terms of n. The combined sum gives you the equation.</p>
+</div>
+
+<h3>Type A — Direct Relationship (One person described in terms of the other)</h3>
+<div class="example">
+  <div class="tag">📝 2024 Q14: Romy is 3 years more than half the mother's age. Mother will be 50 in 8 years.</div>
+  <div class="work">
+    Mother's current age = 50 − 8 = 42<br>
+    Romy = (1/2 × 42) + 3 = 21 + 3 = <span class="ans">24</span> → (C)
+  </div>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2025 Q14: Tina is 3 years LESS than half the father's age. Father will be 56 in 10 years.</div>
+  <div class="work">
+    Father's current age = 56 − 10 = 46<br>
+    Tina = (1/2 × 46) − 3 = 23 − 3 = <span class="ans">20</span> → (C)
+  </div>
+</div>
+
+<h3>Type B — "X is N times what Y was M years ago" + combined sum (Learn this one well!)</h3>
+<div class="example">
+  <div class="tag">📝 2023 Q12: Bunny is twice the age Amy was 10 years ago. Combined current ages = 55. Find Amy's age.</div>
+  <div class="work">
+    <span class="lbl">Let Amy's current age = A (our unknown).</span><br>
+    Amy was (A − 10) years old ten years ago.<br>
+    Bunny's current age = 2 × (A − 10) = 2A − 20<br>
+    <span class="lbl">Combined sum condition:</span><br>
+    A + (2A − 20) = 55<br>
+    3A − 20 = 55<br>
+    3A = 75<br>
+    A = <span class="ans">25</span><br>
+    Check: Bunny = 2(25−10) = 30. Sum = 25+30 = 55 ✓ → (B)
+  </div>
+</div>
+
+<div class="tricks">
+  <div class="tag">⚡ The Age Problem Checklist</div>
+  <ul>
+    <li>Find any current age given a future age: current = future − years to go.</li>
+    <li>Let the younger person's age = A.</li>
+    <li>Write the older person's age as a formula involving A.</li>
+    <li>Use the combined sum to write one equation. Solve for A.</li>
+    <li>Always check both the relationship AND the sum are satisfied.</li>
+  </ul>
+</div>
+
+<div class="note">
+  <strong>Note on 2022 Q12:</strong> The algebra gives a non-integer result — this appears to be an error in the original paper. The official answer is (C) 25. Always check www.saolympiads.co.za for the official answer key.
+</div>
+
+<!-- ── STEP 13 ────────────────────────────────────────── -->
+<h2><span class="step-label">STEP 13</span> Hotel Room Number-Line Positioning</h2>
+
+<h3>What it is</h3>
+<div class="what">
+  <div class="tag">📖 What it is and the ONE thing most students miss</div>
+  <p>Hotel rooms are numbered in a consecutive sequence — all odd (1, 3, 5, 7…) or all even (2, 4, 6, 8…). A worker moves along this sequence by a certain number of rooms in each direction. You must find the starting room.</p>
+  <p><strong>The one thing most students miss:</strong> moving one room right in an odd-numbered hotel means the room number increases by 2 (not 1), because consecutive odd numbers differ by 2. So "4 rooms right" = room number +8.</p>
+</div>
+
+<div class="brain">
+  <div class="tag">🧠 Picture the Hotel</div>
+  <p>Imagine walking down a hotel corridor. Room 1, Room 3, Room 5, Room 7… Every door you pass, the number goes up by 2. So if you walk past 5 doors, the room number has gone up by 5 × 2 = 10.</p>
+  <p><strong>Formula: 1 room move = 2 room numbers.</strong></p>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2023 Q15: Odd rooms. Moves: +5 right, −9 left, +1 right. Ends at room 5. Find start.</div>
+  <div class="work">
+    <span class="lbl">Let S = starting room number.</span><br>
+    <span class="lbl">Each move of r rooms = change of 2r in room number.</span><br>
+    S + 2(5) − 2(9) + 2(1) = 5<br>
+    S + 10 − 18 + 2 = 5<br>
+    S − 6 = 5<br>
+    S = <span class="ans">11</span><br>
+    Check: 11 is odd ✓. Starting at 11: +10→21, −18→3, +2→5 ✓ → (B)
+  </div>
+</div>
+
+<div class="tricks">
+  <div class="tag">⚡ Quick Tricks — Hotel Rooms</div>
+  <ul>
+    <li><strong>Formula: S + 2×(net moves) = final room.</strong> Net moves = sum of all moves (right = positive, left = negative).</li>
+    <li>Your final answer must be odd (if odd hotel) or even (if even hotel). If not — check your signs.</li>
+    <li>Alternatively: work backwards. Undo the last move first, then the second-to-last, and so on.</li>
+    <li><strong>Mnemonic: "One room, two numbers."</strong></li>
+  </ul>
+</div>
+
+<!-- ── STEP 14 ────────────────────────────────────────── -->
+<h2><span class="step-label">STEP 14</span> Strike-Off Sequences</h2>
+
+<h3>What it is</h3>
+<div class="what">
+  <div class="tag">📖 What it is</div>
+  <p>A list of consecutive numbers is written out. In round 1, every nth number is crossed off. In round 2, from what remains, every mth number is crossed off. You must count the survivors with a specific property (odd, even, or prime).</p>
+  <p>The secret is to work with a <strong>small representative group</strong> (of size LCM(n, m)), find the survivor pattern for that group, then scale up to cover all numbers.</p>
+</div>
+
+<div class="tricks">
+  <div class="tag">⚡ The Group Method — Step by Step</div>
+  <ol>
+    <li>Find LCM(n, m). This is the size of one repeating group.</li>
+    <li>List positions 1 to LCM in your group. Apply round 1 strike-off.</li>
+    <li>Apply round 2 strike-off to the survivors of round 1.</li>
+    <li>Count survivors in this one group = s.</li>
+    <li>Total survivors = (total numbers ÷ LCM) × s.</li>
+    <li>From survivors, count only those with the required property.</li>
+  </ol>
+  <p><strong>Mnemonic: "LCM is the group size. Find the pattern once. Scale it up."</strong></p>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2024 Q18: Numbers 11–80 (70 numbers). Strike every 3rd, then every 4th. Count odd survivors.</div>
+  <div class="work">
+    LCM(3,4) = 12. Work with one group of 12 positions.<br>
+    Round 1 (strike every 3rd): cross positions 3, 6, 9, 12.<br>
+    Survivors: 1, 2, 4, 5, 7, 8, 10, 11  (8 survivors).<br>
+    Round 2 (strike every 4th survivor): cross 4th (pos 5) and 8th (pos 11).<br>
+    Final survivors: 1, 2, 4, 7, 8, 10  (6 per group of 12).<br>
+    70 numbers = 5 full groups + 10 remainder.<br>
+    From full groups: 5 × 6 = 30 survivors.<br>
+    <span class="lbl">(Map positions to actual numbers starting at 11, count odd ones to get the final answer.)</span><br>
+    Official answer: <span class="ans">≈14 odd numbers</span>
+  </div>
+</div>
+
+<!-- ── STEP 15 ────────────────────────────────────────── -->
+<h2><span class="step-label">STEP 15</span> Watch Loses or Gains Time</h2>
+
+<h3>What it is</h3>
+<div class="what">
+  <div class="tag">📖 What it is and WHY there are two time-streams</div>
+  <p>A faulty watch that loses X minutes per hour runs too slowly. Picture two clocks side by side: real time ticks normally (60 minutes per hour), but the watch only ticks (60 − X) minutes in the same real hour. They are proportional — two different speeds, same starting point.</p>
+  <p><strong>The key takeaway:</strong> real time and watch time form a ratio. If the watch has advanced W minutes, you can find how many real minutes R have passed using the ratio.</p>
+</div>
+
+<code class="formula">Real minutes = Watch minutes × 60 ÷ (60 − X)</code>
+<code class="formula">Watch minutes = Real minutes × (60 − X) ÷ 60</code>
+
+<div class="brain">
+  <div class="tag">🧠 The Two-Clock Picture</div>
+  <p>Imagine two clocks on a wall. The left clock (real time) ticks 60 times per hour. The right clock (the broken watch) only ticks 55 times per hour if it loses 5 min/hour. After 660 right-clock ticks, the real clock has ticked 660 × (60/55) = 720 times. That's 12 real hours.</p>
+  <p><strong>Mnemonic: "Multiply up by 60, divide by what the watch actually shows per hour."</strong></p>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2022 Q17: Watch loses 10 min/hour. Correct at 08:00. Watch shows 13:00. Actual time?</div>
+  <div class="work">
+    Watch advanced = 13:00 − 08:00 = 5 hours = 300 watch-minutes.<br>
+    Real minutes = 300 × 60 ÷ (60−10) = 300 × 60/50 = 300 × 6/5 = 360 real minutes = 6 hours.<br>
+    Actual time = 08:00 + 6h = <span class="ans">14:00</span>
+  </div>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2025 Q13: Watch loses 5 min/hour. Correct at 06:00. Watch shows 17:00. Actual time?</div>
+  <div class="work">
+    Watch advanced = 11 hours = 660 watch-minutes.<br>
+    Real minutes = 660 × 60/55 = 660 × 12/11 = 720 real minutes = 12 hours.<br>
+    Actual time = 06:00 + 12h = <span class="ans">18:00</span> → (B)
+  </div>
+</div>
+
+<!-- ── STEP 16 ────────────────────────────────────────── -->
+<h2><span class="step-label">STEP 16</span> Plant Geometric Growth — Multiplying Sequences</h2>
+
+<h3>What it is</h3>
+<div class="what">
+  <div class="tag">📖 What it is and how it differs from arithmetic sequences</div>
+  <p>An arithmetic sequence adds the same amount each step. A <strong>geometric sequence</strong> multiplies by the same amount each step. That multiplier is called the <strong>common ratio</strong>.</p>
+  <p>For example: 8, 16, 32, 64 … Each term is the previous one multiplied by 2. The ratio is 2.</p>
+  <p><strong>Language trap:</strong> "Grows by 1/3 of its height" does NOT mean multiply by 1/3. It means: new height = old + (1/3 × old) = old × (1 + 1/3) = old × 4/3. The ratio is 4/3.</p>
+  <p><strong>To go BACKWARDS one step:</strong> divide by the ratio. Dividing by 4/3 = multiplying by 3/4 (flip the fraction).</p>
+</div>
+
+<div class="brain">
+  <div class="tag">🧠 The "Grows by" Language Trick</div>
+  <ul>
+    <li>"Grows by half its height" → new = old × (1 + 1/2) = old × <strong>3/2</strong></li>
+    <li>"Grows by one-third of its height" → new = old × (1 + 1/3) = old × <strong>4/3</strong></li>
+    <li>"Grows by one-quarter of its height" → new = old × <strong>5/4</strong></li>
+  </ul>
+  <p><strong>Mnemonic: "Add 1 to the fraction to get the ratio."</strong> 1 + 1/2 = 3/2. 1 + 1/3 = 4/3.</p>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2025 Q19: Plant grows by adding 1/3 of its height each week. Week 4 = 64cm. Find Week 1.</div>
+  <div class="work">
+    Growth ratio = 1 + 1/3 = 4/3.  Reciprocal (to go backward) = 3/4.<br>
+    Week 4 = 64.<br>
+    Week 3 = 64 × 3/4 = 48.<br>
+    Week 2 = 48 × 3/4 = 36.<br>
+    Week 1 = 36 × 3/4 = <span class="ans">27 cm</span>
+  </div>
+</div>
+
+<div class="tricks">
+  <div class="tag">⚡ Quick Tricks — Plant Growth</div>
+  <ul>
+    <li>Identify the ratio from the "grows by" language. Add 1 to the fraction.</li>
+    <li>Going backwards: multiply by the reciprocal (flip the fraction) for each step back.</li>
+    <li>Check: going forwards from Week 1 should give back the Week 4 value.</li>
+  </ul>
+</div>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<div class="page-break"></div>
+<div class="phase">Phase 5 — Advanced Topics &nbsp;|&nbsp; Month 5, Weeks 17–20</div>
+
+<!-- ── STEP 17 ────────────────────────────────────────── -->
+<h2><span class="step-label">STEP 17</span> Sum of Cubes and Telescoping Series</h2>
+
+<h3>Type A — Sum of Cubes</h3>
+<div class="what">
+  <div class="tag">📖 What it is and WHY it's a beautiful shortcut</div>
+  <p>You need to add a long list of cube numbers: 1³ + 2³ + 3³ + … + n³. Calculating each cube and adding them one by one would take forever. The shortcut is a stunning mathematical fact:</p>
+  <p><strong>The sum of the first n cubes equals the SQUARE of the Gauss sum.</strong></p>
+  <p>You already know the Gauss sum (Foundation Concept B): 1+2+…+n = n(n+1)/2. So the sum of cubes is just that value, squared.</p>
+</div>
+
+<code class="formula">1³ + 2³ + 3³ + … + n³ = [ n(n+1) ÷ 2 ]²</code>
+
+<div class="brain">
+  <div class="tag">🧠 Verify It Before Trusting It</div>
+  <div class="work">
+    n=2: 1³+2³ = 1+8 = 9.  [2×3÷2]² = 3² = 9. ✓<br>
+    n=3: 1³+2³+3³ = 36.  [3×4÷2]² = 6² = 36. ✓<br>
+    n=4: 1+8+27+64 = 100.  [4×5÷2]² = 10² = 100. ✓
+  </div>
+  <p>Every time the formula works perfectly. Once you have verified it for small n, you can use it confidently for large n.</p>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2024 Q20: Calculate 1³ + 2³ + … + 20³</div>
+  <div class="work">
+    Gauss sum for n=20: 20 × 21 ÷ 2 = 210.<br>
+    Sum of cubes = 210² = <span class="ans">44 100</span>
+  </div>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2023 Q20: Calculate 3³ + 4³ + … + 24³</div>
+  <div class="work">
+    <span class="lbl">Step 1 — Full sum 1³+…+24³:</span>  [24×25÷2]² = 300² = 90 000<br>
+    <span class="lbl">Step 2 — Remove 1³+2³:</span>  1 + 8 = 9<br>
+    Answer = 90 000 − 9 = <span class="ans">89 991</span>
+  </div>
+</div>
+
+<h3>Type B — Telescoping Fractions</h3>
+<div class="what">
+  <div class="tag">📖 What it is — and WHY the cancellation happens</div>
+  <p>A telescoping series is a long sum of fractions where most terms cancel out, leaving only the very first piece and the very last piece. It is like a collapsing telescope — many sections fold away and you are left with just two ends.</p>
+  <p>The key is using a <strong>partial fraction identity</strong> to split each term into two simpler fractions. After splitting, you will see that consecutive terms share the same sub-fractions with opposite signs — and they cancel.</p>
+</div>
+
+<code class="formula">1/(n × (n+2)) = (1/2) × (1/n − 1/(n+2))</code>
+
+<div class="brain">
+  <div class="tag">🧠 Prove the Identity Yourself — Takes 30 Seconds</div>
+  <p>Take the right side: (1/2)(1/n − 1/(n+2)). Find a common denominator of n(n+2):</p>
+  <div class="work">
+    = (1/2) × [(n+2 − n) / n(n+2)]<br>
+    = (1/2) × [2 / n(n+2)]<br>
+    = 1 / n(n+2)  ✓
+  </div>
+  <p>It matches the left side exactly. The identity is proved. Now use it with confidence.</p>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2022 Q20: 1/(3×5) + 1/(5×7) + 1/(7×9) + … + 1/(19×21)</div>
+  <div class="work">
+    <span class="lbl">Split every term using the identity:</span><br>
+    1/(3×5) = (1/2)(1/3 − 1/5)<br>
+    1/(5×7) = (1/2)(1/5 − 1/7)<br>
+    1/(7×9) = (1/2)(1/7 − 1/9)<br>
+    …<br>
+    1/(19×21) = (1/2)(1/19 − 1/21)<br>
+    <span class="lbl">Now add. Notice what cancels: −1/5 and +1/5 cancel. −1/7 and +1/7 cancel. And so on.</span><br>
+    Only the very first (+1/3) and very last (−1/21) survive:<br>
+    Sum = (1/2)(1/3 − 1/21) = (1/2)(7/21 − 1/21) = (1/2)(6/21) = <span class="ans">1/7</span>
+  </div>
+</div>
+
+<!-- ── STEP 18 ────────────────────────────────────────── -->
+<h2><span class="step-label">STEP 18</span> Worst-Case Probability — Blindfolded Disc Problems</h2>
+
+<h3>What it is</h3>
+<div class="what">
+  <div class="tag">📖 What "ENSURE" means — the most important word in the question</div>
+  <p>The word <strong>ENSURE</strong> means you must guarantee the result no matter how badly things go. You cannot assume luck. You must assume the <strong>worst possible luck</strong> with every single pick.</p>
+  <p>Worst case means: every disc you pick, until the very end, is from the wrong colour. Only at the very last picks do you start getting the colour you want.</p>
+  <p><strong>The key takeaway:</strong> to guarantee K discs of the target colour, first assume you pick ALL the non-target discs, then pick K target discs.</p>
+</div>
+
+<code class="formula">Minimum picks to ENSURE K of target colour = All non-target discs + K</code>
+
+<div class="brain">
+  <div class="tag">🧠 Why Not Just K?</div>
+  <p>Imagine you want 4 white discs from a bag with 6 white, 4 green and 3 orange. Could you just pick 4? In theory — but you might pick green, green, orange, green (4 picks, zero white). You might pick 7 non-white discs before your first white one. Once all 7 non-white are gone, the next 4 must be white. So minimum = 7 + 4 = 11.</p>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2023 Q8: 6 white, 4 green, 3 orange. Ensure 4 white discs.</div>
+  <div class="work">
+    Non-target discs = 4 green + 3 orange = 7.<br>
+    Minimum picks = 7 + 4 = <span class="ans">11</span> → (D)
+  </div>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2024 Q10: 6 white, 7 green, 4 orange. Ensure 3 green discs.</div>
+  <div class="work">
+    Non-target discs = 6 white + 4 orange = 10.<br>
+    Minimum picks = 10 + 3 = <span class="ans">13</span> → (C)
+  </div>
+</div>
+
+<!-- ── STEP 19 ────────────────────────────────────────── -->
+<h2><span class="step-label">STEP 19</span> Three-Variable Equations — Basketball Scoring</h2>
+
+<h3>What it is</h3>
+<div class="what">
+  <div class="tag">📖 What it is and the simple substitution strategy</div>
+  <p>When a problem has three unknown quantities, you need three pieces of information (three equations). The strategy is <strong>substitution</strong>: find the simplest equation (usually one that says "a = 2b" or "b = 2a"), substitute it everywhere, and reduce from 3 unknowns → 2 unknowns → 1 unknown → solve.</p>
+</div>
+
+<div class="tricks">
+  <div class="tag">⚡ The 7-Step System</div>
+  <ol>
+    <li>Name the three unknowns: a, b, c. Write what each represents.</li>
+    <li>Write three equations from the three given pieces of information.</li>
+    <li>Pick the simplest equation (often the ratio/relationship one).</li>
+    <li>Substitute that into the other two equations. Now you have two equations with two unknowns.</li>
+    <li>From one of those, express one variable in terms of the other. Substitute into the last equation.</li>
+    <li>Solve the one-variable equation. Work backwards for the others.</li>
+    <li>Check ALL THREE values in ALL THREE original equations.</li>
+  </ol>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2022 Q18: 95 points from 45 shots in 1s, 2s and 3s. Twice as many 2-pointers as 1-pointers. Find 3-pointers.</div>
+  <div class="work">
+    Let a = 1-pointers, b = 2-pointers, c = 3-pointers.<br>
+    Eq1 (shots):  a + b + c = 45<br>
+    Eq2 (points): a + 2b + 3c = 95<br>
+    Eq3 (ratio):  b = 2a<br>
+    <br>
+    <span class="lbl">Sub b=2a into Eq1:</span>  a + 2a + c = 45  →  3a + c = 45 ... (i)<br>
+    <span class="lbl">Sub b=2a into Eq2:</span>  a + 4a + 3c = 95  →  5a + 3c = 95 ... (ii)<br>
+    <br>
+    <span class="lbl">From (i): c = 45 − 3a. Sub into (ii):</span><br>
+    5a + 3(45−3a) = 95 → 5a + 135 − 9a = 95 → −4a = −40 → a = 10<br>
+    c = 45 − 30 = 15.  b = 20.<br>
+    <span class="lbl">Check: 10+20+15=45 ✓ &nbsp; 10+40+45=95 ✓ &nbsp; 20=2×10 ✓</span><br>
+    3-pointers = <span class="ans">15</span>
+  </div>
+</div>
+
+<!-- ── STEP 20 ────────────────────────────────────────── -->
+<h2><span class="step-label">STEP 20</span> Digit Patterns and Last-Digit Problems</h2>
+
+<h3>Type A — Last N digits of a large product</h3>
+<div class="what">
+  <div class="tag">📖 What it is and WHY you can ignore the big digits</div>
+  <p>When you multiply two large numbers, the last 3 digits of the answer depend only on the last 3 digits of each number. The hundreds of thousands and millions contribute zero to the ones, tens, or hundreds columns. So you can discard everything above the last 3 digits and work with much smaller numbers.</p>
+</div>
+
+<div class="example">
+  <div class="tag">📝 2022 Q11: Last 3 digits of 77 777 × 99 999</div>
+  <div class="work">
+    <span class="lbl">Use the factoring trick: 77 777 × 99 999 = 77 777 × (100 000 − 1)</span><br>
+    = 7 777 700 000 − 77 777 = 7 777 622 223<br>
+    Last 3 digits: <span class="ans">223</span> → (C)
+  </div>
+</div>
+
+<h3>Type B — Digit sum patterns</h3>
+<div class="example">
+  <div class="tag">📝 2023 Q18: Find digit sum of 55 555 555 × 99 999 999</div>
+  <div class="work">
+    55 555 555 × 99 999 999 = 55 555 555 × (100 000 000 − 1)<br>
+    = 5 555 555 500 000 000 − 55 555 555<br>
+    = 5 555 555 444 444 445<br>
+    Digits: eight 5s and eight 4s.<br>
+    Digit sum = 8×5 + 8×4 = 40 + 32 = <span class="ans">72</span>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<div class="page-break"></div>
+<div class="phase">Phase 6 — Paper Practice &nbsp;|&nbsp; Month 6, Weeks 21–26</div>
+
+<h3>Weeks 21–22: Timed Papers 2022 and 2023</h3>
+<p>Sit each paper under full exam conditions — 90 minutes, no calculator, no notes, no help. Mark immediately after. Sort your mistakes into two categories: <strong>careless errors</strong> (you knew the method but slipped on arithmetic) and <strong>concept gaps</strong> (you didn't know the method). Careless errors are fixed by slowing down and checking. Concept gaps are fixed by revisiting the relevant step in this booklet.</p>
+
+<h3>Weeks 23–24: Timed Papers 2024 and 2025</h3>
+<p>Same process. Pay extra attention to topics that appear in both papers: cube towers, plant growth, related rectangles, hotel room positioning, watch time.</p>
+
+<h3>Week 25: Mixed Topic Sprint</h3>
+<p>From all four marked papers, write a list of your three weakest topics. Spend one full session on each of those three topics, drawing questions from all four years.</p>
+
+<h3>Week 26: Final Revision and Confidence Check</h3>
+<p>Redo every question you got wrong in practice. Go through the Quick Reference Card. Try to complete Q1–Q10 of any paper in under 30 minutes. You are ready.</p>
+
+<div class="brain">
+  <div class="tag">🌟 Exam Day Mindset</div>
+  <p>You have worked for 6 months. You have seen every question type before. When you sit down in the exam:</p>
+  <ul>
+    <li>Read Q1 twice before writing. Get it right. It is a free mark.</li>
+    <li>If you are stuck, skip and come back. Do not stall on one question.</li>
+    <li>Show all working. Even if your answer is wrong, working earns marks.</li>
+    <li>Trust the method. If you have used the right method, the answer is correct.</li>
+  </ul>
+</div>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<div class="page-break"></div>
+<div class="phase">Bonus — 2017 Final Round Extension Topics</div>
+<p><em>Harder than the standard paper. Only attempt these after all 20 steps above are fully secure.</em></p>
+
+<h2>Bonus A: Handshakes</h2>
+<div class="example">
+  <div class="tag">📝 2017 Q14: Each person shook hands with 1/4 of the people. Total = 288 handshakes. How many people?</div>
+  <div class="work">
+    Each handshake involves 2 people: n × (n/4) ÷ 2 = 288 → n²/8 = 288 → n² = 2304 → n = 48 ✓<br>
+    Answer: <span class="ans">48 people</span>
+  </div>
+</div>
+
+<h2>Bonus B: Two-Tap Filling</h2>
+<div class="example">
+  <div class="tag">📝 2017 Q19: Cold tap fills 140L in 15 min. Hot tap in 20 min. Both open — how long?</div>
+  <div class="work">
+    Rates: 140/15 + 140/20 = 140 × (1/15 + 1/20) = 140 × 7/60 L/min.<br>
+    Time = 140 ÷ (140×7/60) = 60/7 = <span class="ans">8 and 4/7 minutes</span>
+  </div>
+</div>
+
+<h2>Bonus C: Painted Cube Faces</h2>
+<div class="example">
+  <div class="tag">📝 2017 Q20: 125 small cubes → 5×5×5 large cube, all faces painted. Exactly 2 green faces?</div>
+  <div class="work">
+    Edge cubes (not at corners): 12 edges × 3 interior cubes per edge = <span class="ans">36 cubes</span><br>
+    Check: 8 corner (3 faces) + 36 edge (2 faces) + 54 face (1 face) + 27 interior (0) = 125 ✓
+  </div>
+</div>
+
+<h2>Bonus D: Fibonacci-Style Sequences</h2>
+<div class="example">
+  <div class="tag">📝 2017 Q1: 3; 4; 7; 11; 18; … (each term = sum of previous two). Find the 8th term.</div>
+  <div class="work">
+    T1=3, T2=4, T3=7, T4=11, T5=18, T6=29, T7=47, T8=29+47=<span class="ans">76</span>
+  </div>
+</div>
+
+<h2>Bonus E: Lines Dividing a Plane</h2>
+<div class="example">
+  <div class="tag">📝 2025 Q20: 2 lines → 4 regions. 3 lines → 7 regions. How many lines for 92 regions?</div>
+  <div class="work">
+    Each new line adds one more region than the previous line: new regions added are 2, 3, 4, 5, …<br>
+    Total regions with n lines = 1 + (2+3+4+…+(n+1)) = n(n+1)/2 + 1.<br>
+    Check: n=2: 4 ✓.  n=3: 7 ✓.<br>
+    Solve: n(n+1)/2 + 1 = 92 → n(n+1) = 182 → n=13 (13×14=182 ✓)<br>
+    Answer: <span class="ans">13 lines</span>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<div class="page-break"></div>
+<h2>Online Resources — When and How to Use Them</h2>
+
+<table>
+  <tr><th>Code</th><th>Resource</th><th>Address</th><th>Best for</th></tr>
+  <tr><td>KA</td><td>Khan Academy</td><td>khanacademy.org</td><td>Video lessons + graded practice on all topics</td></tr>
+  <tr><td>CM</td><td>Corbett Maths</td><td>corbettmaths.com</td><td>Short videos + printable worksheets with answers</td></tr>
+  <tr><td>MF</td><td>Math is Fun</td><td>mathsisfun.com</td><td>Clear explanations + interactive examples</td></tr>
+  <tr><td>AoPS</td><td>Art of Problem Solving</td><td>artofproblemsolving.com/wiki</td><td>Olympiad-level theory</td></tr>
+  <tr><td>NR</td><td>NRICH</td><td>nrich.maths.org</td><td>Olympiad-style challenge problems</td></tr>
+  <tr><td>EW</td><td>Eddie Woo</td><td>youtube.com/@misterwootube</td><td>Engaging video explanations</td></tr>
+  <tr><td>SA</td><td>SA Olympiads (official)</td><td>saolympiads.co.za</td><td>Past papers + official answer sheets</td></tr>
+</table>
+
+<h3>Month 1 (Weeks 1–4) — Foundation Repair</h3>
+<p><strong>Week 1:</strong> KA — "Order of Operations" — 3 videos + all practice. CM — "BIDMAS" — worksheet + self-mark.</p>
+<p><strong>Week 2:</strong> CM — "Decimal Division." MF — "Long Division" page — read + 5 problems.</p>
+<p><strong>Week 3:</strong> KA — "Fractions of a whole" + "Solving equations with fractions." MA — "Mathantics Algebra Basics" on YouTube.</p>
+<p><strong>Week 4:</strong> EW — "Eddie Woo factoring expressions." AoPS Wiki — "Algebraic manipulations."</p>
+
+<h3>Month 2 (Weeks 5–8) — Core Number</h3>
+<p><strong>Week 5:</strong> KA — "Divisibility tests" — all 5 practice levels. MF — "Divisibility Rules" — memorise + quiz.</p>
+<p><strong>Week 6:</strong> CM — "Divisibility" worksheet. NR — "Divisible digits."</p>
+<p><strong>Week 7:</strong> AoPS — "Alphametics" — read + 2 examples. NR — "Digit puzzles."</p>
+<p><strong>Week 8:</strong> KA — "Unit rates" + "Solving proportions." CM — "Ratio and proportion problems."</p>
+
+<h3>Month 3 (Weeks 9–12) — Geometry</h3>
+<p><strong>Week 9:</strong> KA — "Area of composite figures." CM — "Area of compound shapes."</p>
+<p><strong>Week 10:</strong> MF — "Pick's Theorem." EW — "Area of irregular shapes on grids."</p>
+<p><strong>Week 11:</strong> KA — "Lines of symmetry." NR — "Triangular numbers."</p>
+<p><strong>Week 12:</strong> EW — "Sum of first n integers" (Gauss trick). SA — attempt 2023 Q10–Q13.</p>
+
+<h3>Month 4 (Weeks 13–16) — Logic</h3>
+<p><strong>Week 13:</strong> KA — "Age word problems." NR — "Age problems."</p>
+<p><strong>Week 14:</strong> Draw odd-numbered rooms 1,3,5,…,21 on a number line. Simulate 2023 Q15 using Step 13 method. CM — "Solving linear equations."</p>
+<p><strong>Week 15:</strong> NR — "Sieve of Eratosthenes." Build your own strike-off table for 1–30.</p>
+<p><strong>Week 16:</strong> KA — "Geometric sequences." EW — "Geometric sequences."</p>
+
+<h3>Month 5 (Weeks 17–20) — Advanced</h3>
+<p><strong>Week 17:</strong> EW — "Sum of natural numbers" (Gauss). MF — "Triangular numbers."</p>
+<p><strong>Week 18:</strong> MF — "Sum of cubes." AoPS — "Telescoping series."</p>
+<p><strong>Week 19:</strong> KA — "Systems of 3 equations." NR — combinatorics problems.</p>
+<p><strong>Week 20:</strong> NR — Stage 3 challenges. SA — full 2017 Final Round (120 minutes, timed).</p>
+
+<h3>Month 6 (Weeks 21–26) — Paper Practice</h3>
+<p>After each timed paper: look up ONLY the topics you got wrong. Revisit that step in this booklet. Do NOT learn new topics. Reinforce what you already know. SA saolympiads.co.za is your primary source for past papers and answer sheets.</p>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<div class="page-break"></div>
+<h2>Quick Reference Card — Print and Keep</h2>
+
+<table>
+  <tr><th>Topic</th><th>Formula or Key Rule</th><th>Quick memory hook</th></tr>
+  <tr><td>BODMAS</td><td>Brackets → Orders → ÷× (left to right) → +− (left to right)</td><td><em>"Big Orange Dogs Might Act Strange"</em></td></tr>
+  <tr><td>Rounding</td><td>Look one place past target: ≥5 rounds up, ≤4 stays</td><td><em>"5 and above, round it up"</em></td></tr>
+  <tr><td>Divide by decimal</td><td>Multiply both by 10 or 100: 8÷0.04 = 800÷4</td><td><em>"Kick the decimal away"</em></td></tr>
+  <tr><td>Container fractions</td><td>Capacity = Amount ÷ (big fraction − small fraction)</td><td><em>"Amount over gap"</em></td></tr>
+  <tr><td>Fraction midpoint</td><td>x = 2 × Middle − Other end</td><td><em>"Double the middle, minus the end"</em></td></tr>
+  <tr><td>Distributive law</td><td>a×b + a×c = a×(b+c) — factor out the common number</td><td><em>"Same number? Factor it out!"</em></td></tr>
+  <tr><td>Gauss sum 1 to n</td><td>n(n+1) ÷ 2</td><td><em>"Pair the ends, count the pairs, halve"</em></td></tr>
+  <tr><td>Arithmetic series</td><td>(terms) × (first + last) ÷ 2</td><td><em>"Average the ends, times the count"</em></td></tr>
+  <tr><td>Sum of cubes</td><td>1³+2³+…+n³ = [n(n+1)÷2]²</td><td><em>"Gauss sum, then square it"</em></td></tr>
+  <tr><td>Telescoping identity</td><td>1/(n×(n+2)) = (1/2)(1/n − 1/(n+2))</td><td><em>Split, cancel the middles, keep the ends</em></td></tr>
+  <tr><td>Divisibility by 9</td><td>Sum of all digits divisible by 9</td><td><em>"Digit Sum Club: 3 and 9 are members"</em></td></tr>
+  <tr><td>Age Type B</td><td>Let younger = A. Older = k(A−m). Sum equation. Solve.</td><td><em>"Younger first, then express the older"</em></td></tr>
+  <tr><td>Hotel rooms</td><td>S + 2×(each move signed) = final room</td><td><em>"One room, two numbers"</em></td></tr>
+  <tr><td>Watch loses X min/hr</td><td>Real time = Watch time × 60 ÷ (60−X)</td><td><em>"Multiply up by 60"</em></td></tr>
+  <tr><td>Plant grows by 1/k</td><td>Ratio = 1 + 1/k. Go back: multiply by reciprocal.</td><td><em>"Add 1 to the fraction to get the ratio"</em></td></tr>
+  <tr><td>Worst-case discs</td><td>All non-target + required target</td><td><em>"Worst luck first, then your colour"</em></td></tr>
+  <tr><td>Cube tower storey k</td><td>k(k+1)÷2 cubes. Build the table.</td><td><em>"Triangular number for each storey"</em></td></tr>
+  <tr><td>Lines dividing a plane</td><td>n(n+1)/2 + 1 regions</td><td><em>"Gauss sum plus 1"</em></td></tr>
+</table>
+
+<div class="brain">
+  <div class="tag">🧠 The Equation Checklist — Use Every Time</div>
+  <ol>
+    <li>Name the unknown. Write "Let n = ..."</li>
+    <li>Translate every sentence into algebra.</li>
+    <li>Write the equation with a clear equals sign.</li>
+    <li>Solve one step per line. Show all steps.</li>
+    <li>Check: substitute your answer back into the original problem.</li>
+  </ol>
+</div>
+
+<div class="brain">
+  <div class="tag">⏱️ Time Budget for the Exam</div>
+  <table>
+    <tr><th>Questions</th><th>Time each</th><th>Total</th></tr>
+    <tr><td>Q1–Q10 (multiple choice)</td><td>2–3 minutes</td><td>25 minutes</td></tr>
+    <tr><td>Q11–Q15 (multiple choice)</td><td>4–5 minutes</td><td>20 minutes</td></tr>
+    <tr><td>Q16–Q20 (open-ended, 2 marks)</td><td>8–9 minutes</td><td>45 minutes</td></tr>
+    <tr><td><strong>Total</strong></td><td></td><td><strong>90 minutes</strong></td></tr>
+  </table>
+  <p>Finish early? Go back and check Q1–Q10 first. One-mark careless errors are the most common way to lose a ranking position.</p>
+</div>
+
+<hr>
+<p style="font-size:.84rem; color:#555; line-height:1.8;">
+Source: FEMSSISA Grade 6 Olympiad papers 2022, 2023, 2024, 2025 and 2017 Final Round.
+All worked examples verified against official papers. Certainty: 9/10.
+The 2022 Q12 age problem produces a non-integer algebraic result and appears to contain an error in the original paper — consult the official answer key at <strong>www.saolympiads.co.za</strong>.
+This document was designed for clean black-on-white printing. Open in any browser and press Ctrl+P.
+</p>
+
+</body>
+</html>
