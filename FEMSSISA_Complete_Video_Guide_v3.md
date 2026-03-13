@@ -285,55 +285,23 @@
 ### Bonus D: Fibonacci-Style Sequences
 | # | Video | How to find it |
 |---|-------|----------------|
-| 1 | **Numberphile — Fibonacci Sequence** | 🔍 YouTube: `Numberphile Fibonacci sequence nature` |
-| 2 | **Khan Academy — Fibonacci Sequence** | 🔍 YouTube: `Khan Academy Fibonacci sequence` |
-| 3 | **Vi Hart — Doodling in Maths: Fibonacci** | 🔍 YouTube: `Vi Hart doodling math spirals Fibonacci` |
+| 1 | **Numberphile — Fibonacci Sequence** | [youtube.com/watch?v=Nu-lW-Ifyec](https://www.youtube.com/watch?v=Nu-lW-Ifyec) ✅ verified |
+| 2 | **Khan Academy — Fibonacci Sequence** | [youtube.com/watch?v=Bdbc1ZC-vhw](https://www.youtube.com/watch?v=Bdbc1ZC-vhw&pp=ygUjS2hhbiBBY2FkZW15IOKAlCBGaWJvbmFjY2kgU2VxdWVuY2U%3D) ✅ verified |
+| 3 | **Vi Hart — Doodling in Maths: Fibonacci** | [youtube.com/watch?v=bY1sOzTLrQQ](https://www.youtube.com/watch?v=bY1sOzTLrQQ) or [youtube.com/watch?v=suKasxstQ5k](https://www.youtube.com/watch?v=suKasxstQ5k) or [youtube.com/watch?v=hMbQQfvrrf4](https://www.youtube.com/watch?v=hMbQQfvrrf4) ✅ verified |
+| 4 | **fibonacci golden ratio** | [youtube.com/watch?v=2tv6Ej6JVho](https://www.youtube.com/watch?v=2tv6Ej6JVho) ✅ verified |
+| 5 | **Binet's formula** | [youtube.com/watch?v=W-9Q_-OXC-M](https://www.youtube.com/watch?v=W-9Q_-OXC-M) ✅ verified |
+| 6 | **Pi-th fibonacci number** | [youtube.com/watch?v=xGcv2lnTgtw](https://www.youtube.com/watch?v=xGcv2lnTgtw) ✅ verified |
 
 ### Bonus E: Lines Dividing a Plane
 | # | Video | How to find it |
 |---|-------|----------------|
-| 1 | **Eddie Woo — Maximum Regions with n Lines** | 🔍 YouTube: `Eddie Woo maximum regions lines dividing plane` |
-| 2 | **NRICH — Lines Dividing Plane** | [nrich.maths.org/2048](https://nrich.maths.org/2048) ✅ stable URL |
+| 1 | **Pancake Math (The Lazy Caterer's Sequence) #shorts** | [youtube.com/shorts/_sJwKtl8EOA](https://www.youtube.com/shorts/_sJwKtl8EOA) ✅ verified |
+| 2 | **Maximum number of Regions** | [youtube.com/watch?v=fYuZZO9BItY](https://www.youtube.com/watch?v=fYuZZO9BItY) ✅ verified |
+| 3 | **Regions of the Plane** | [youtube.com/watch?v=CSUmdpc5dB8](https://www.youtube.com/watch?v=CSUmdpc5dB8&t=38) ✅ verified |
+| 4 | **Maximum Regions from N lines** | [youtube.com/watch?v=TjiCn_3sNxI](https://www.youtube.com/watch?v=TjiCn_3sNxI) ✅ verified |
+| 5 | **Lines in a Plane - Recursion and Proof by Induction** | [youtube.com/watch?v=Hgc0HRp_P0U](https://www.youtube.com/watch?v=Hgc0HRp_P0U) ✅ verified |
 
 ---
-
-## GRADE 5 SPECIFIC TOPICS
-
-### Calendar & Date Problems
-| # | Video | How to find it |
-|---|-------|----------------|
-| 1 | **Math with Mr. J — Calendar Math** | 🔍 YouTube: `Math with Mr J calendar math days dates` |
-| 2 | **Math For Love — Calendar Problem (article)** | [mathforlove.com — The Calendar Problem](https://mathforlove.com/lesson/the-calendar-problem/) ✅ stable URL |
-
-### Custom Operator (@) Puzzles
-| # | Video | How to find it |
-|---|-------|----------------|
-| 1 | **Art of Problem Solving — Custom Operations** | 🔍 YouTube: `Art of Problem Solving custom operations defined` |
-| 2 | **NRICH — Function Machines** | [nrich.maths.org — Function Machines](https://nrich.maths.org/function-machines) ✅ stable URL |
-
-### Coin / Money Algebra
-| # | Video | How to find it |
-|---|-------|----------------|
-| 1 | **Khan Academy — Coin Word Problems** | 🔍 YouTube: `Khan Academy coin word problems algebra` |
-| 2 | **Math with Mr. J — Money Word Problems** | 🔍 YouTube: `Math with Mr J money word problems` |
-
-### Price Discount & Increase
-| # | Video | How to find it |
-|---|-------|----------------|
-| 1 | **Math Antics — What Are Percentages?** | [mathantics.com/lesson/what-are-percentages](https://mathantics.com/lesson/what-are-percentages) or 🔍 YouTube: `Math Antics What Are Percentages` |
-| 2 | **Math Antics — Finding a Percent of a Number** | [mathantics.com/lesson/finding-a-percent-of-a-number](https://mathantics.com/lesson/finding-a-percent-of-a-number) or 🔍 YouTube: `Math Antics Finding a Percent of a Number` |
-
-### Visual Logic (Pyramaths & Geogons)
-| # | Video | How to find it |
-|---|-------|----------------|
-| 1 | **NRICH — Arithmogons (Interactive)** | [nrich.maths.org/2670](https://nrich.maths.org/2670) ✅ stable URL |
-| 2 | **Corbett Maths — Number Pyramids** | 🔍 YouTube: `Corbett Maths number pyramids` |
-
-### Stone/Bead Patterns & LCM/Scheduling
-| # | Video | How to find it |
-|---|-------|----------------|
-| 1 | **Math Antics — Least Common Multiple** | [mathantics.com/lesson/least-common-multiple](https://mathantics.com/lesson/least-common-multiple) or 🔍 YouTube: `Math Antics Least Common Multiple` |
-| 2 | **NUMBEROCK — LCM Song** | 🔍 YouTube: `NUMBEROCK LCM song least common multiple` |
 
 ---
 
@@ -341,17 +309,17 @@
 
 | Channel | Best For | Style | Age Range |
 |---------|----------|-------|-----------|
-| **Math Antics** | All foundation topics | Animated host + whiteboard, humorous | 8–13 |
-| **Khan Academy** | Deep understanding, step-by-step | Digital blackboard, calm voice | 7–15 |
-| **NUMBEROCK** | Memorising rules & formulas | Animated music videos with songs | 5–11 |
-| **Eddie Woo** | Storytelling, "aha" moments | Classroom recording, enthusiastic | 8–15 |
-| **Math with Mr. J** | Quick, friendly explanations | Digital whiteboard, friendly | 6–12 |
-| **Corbett Maths** | UK/SA exam-style revision | Short whiteboard, no frills | 10–14 |
-| **Mashup Math** | Visual learners | Bright colourful animations | 8–13 |
-| **NRICH** | Olympiad challenges (interactive) | Web puzzles + solutions | 8–16 |
-| **Art of Problem Solving** | Olympiad techniques | Structured, digital board | 10–16 |
-| **Numberphile** | Wonder, beauty of maths | Mathematician interviews + props | 8–adult |
-| **Generation Genius** | Interactive video lessons | Real kids + animation hybrid | 6–11 |
+| [**Math Antics**](https://www.youtube.com/@mathantics) | All foundation topics | Animated host + whiteboard, humorous | 8–13 |
+| [**Khan Academy**](https://www.youtube.com/@khanacademy) | Deep understanding, step-by-step | Digital blackboard, calm voice | 7–15 |
+| [**NUMBEROCK**](https://www.youtube.com/@NUMBEROCK) | Memorising rules & formulas | Animated music videos with songs | 5–11 |
+| [**Eddie Woo**](https://www.youtube.com/@misterwootube) | Storytelling, "aha" moments | Classroom recording, enthusiastic | 8–15 |
+| [**Math with Mr. J**](https://www.youtube.com/@MathwithMrJ) | Quick, friendly explanations | Digital whiteboard, friendly | 6–12 |
+| [**Corbett Maths**](https://www.youtube.com/@corbettmaths) | UK/SA exam-style revision | Short whiteboard, no frills | 10–14 |
+| [**Mashup Math**](https://www.youtube.com/@MashupMath) | Visual learners | Bright colourful animations | 8–13 |
+| [**NRICH**](https://www.youtube.com/@NRICHmaths) | Olympiad challenges (interactive) | Web puzzles + solutions | 8–16 |
+| [**Art of Problem Solving**](https://www.youtube.com/@ArtofProblemSolving) | Olympiad techniques | Structured, digital board | 10–16 |
+| [**Numberphile**](https://www.youtube.com/@numberphile) | Wonder, beauty of maths | Mathematician interviews + props | 8–adult |
+| [**Generation Genius**](https://www.youtube.com/@GenerationGenius) | Interactive video lessons | Real kids + animation hybrid | 6–11 |
 
 ---
 
