@@ -2,7 +2,7 @@
 
 Study materials and supplementary resources for the **FEMSSISA Grade 5 and Grade 6 Mathematics Olympiads**.
 
-This repository contains the complete 6-month training programme, past competition papers (2022-2025), and a curated collection of YouTube video resources mapped to each topic in the curriculum.
+This repository contains the complete 6-month training programme, past competition papers (2017-2025), and a curated collection of YouTube video resources mapped to each topic in the curriculum.
 
 ---
 
@@ -27,6 +27,7 @@ This repository contains the complete 6-month training programme, past competiti
 
 | Year | Paper |
 |---|---|
+| 2017 | [Grade-6-Final-Round-2017-Questions.pdf](Grade-6-Final-Round-2017-Questions.pdf) |
 | 2022 | [FEMSSISA-Grade-6-Mathematics-Olympiads-2022.pdf](FEMSSISA-Grade-6-Mathematics-Olympiads-2022.pdf) |
 | 2023 | [FEMSSISA-Grade-6-Mathematics-Olympiads-2023.pdf](FEMSSISA-Grade-6-Mathematics-Olympiads-2023.pdf) |
 | 2024 | [FEMSSISA-Grade-6-Mathematics-Olympiads-2024.pdf](FEMSSISA-Grade-6-Mathematics-Olympiads-2024.pdf) |
