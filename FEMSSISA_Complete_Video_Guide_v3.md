@@ -311,7 +311,7 @@
 |---------|----------|-------|-----------|
 | [**Math Antics**](https://www.youtube.com/@mathantics) | All foundation topics | Animated host + whiteboard, humorous | 8–13 |
 | [**Khan Academy**](https://www.youtube.com/@khanacademy) | Deep understanding, step-by-step | Digital blackboard, calm voice | 7–15 |
-| [**NUMBEROCK**](https://www.youtube.com/@NUMBEROCK) | Memorising rules & formulas | Animated music videos with songs | 5–11 |
+| [**NUMBEROCK**](https://www.youtube.com/watch?v=fxCXHQBUidU&list=PLWphMREEQDrhai93Wv0-vgYAjf2EGa5jy) | Memorising rules & formulas | Animated music videos with songs | 5–11 |
 | [**Eddie Woo**](https://www.youtube.com/@misterwootube) | Storytelling, "aha" moments | Classroom recording, enthusiastic | 8–15 |
 | [**Math with Mr. J**](https://www.youtube.com/@MathwithMrJ) | Quick, friendly explanations | Digital whiteboard, friendly | 6–12 |
 | [**Corbett Maths**](https://www.youtube.com/@corbettmaths) | UK/SA exam-style revision | Short whiteboard, no frills | 10–14 |
